@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Experience from './components/Experience'
@@ -9,23 +10,31 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import ProjectGit from "./components/ProjectGit";
 import Website from "./components/Website";
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import ReactGA from 'react-ga4';
+
+import AnalyticsTracker from './components/AnalyticsTracker';
+import Home from './pages/Home';
+import DetallesProyecto from './pages/DetallesProyecto';
+
 
 
 export default function App() {
+  useEffect(() => {
+    ReactGA.initialize("G-D28155BNK4"); // 👈 tu ID real de Google Analytics
+  }, []);
+
+
+
   return (
-    <div className="font-sans bg-[#0D1117] min-h-screen text-gray-100">
-      <Navbar />
-      <main className="max-w-6xl mx-auto px-6 pt-24">
-        <Hero />
-        <Experience />
-        <Skills />
-        <Projects />
-      <ProjectGit />   {/* ← sección de GitHub */}
-        <Website />
-        <Recommendations />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
-  )
+    <Router>
+      <AnalyticsTracker />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/detallesproyecto" element={<DetallesProyecto />} />
+      </Routes>
+    </Router>
+  );
 }
+
+
