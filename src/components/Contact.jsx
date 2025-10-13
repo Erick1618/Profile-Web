@@ -1,0 +1,68 @@
+import React, { useState } from 'react'
+
+// This uses EmailJS (client-side). Replace SERVICE_ID, TEMPLATE_ID, PUBLIC_KEY with your EmailJS values.
+// See https://www.emailjs.com/docs/sdk/installation/ for setup.
+export default function Contact() {
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
+  const [status, setStatus] = useState('')
+
+  const handleSend = async () => {
+    setStatus('Enviando...')
+    try {
+      // Minimal EmailJS request using fetch (no SDK). Replace below placeholders.
+      const SERVICE_ID = 'YOUR_SERVICE_ID'
+      const TEMPLATE_ID = 'YOUR_TEMPLATE_ID'
+      const PUBLIC_KEY = 'YOUR_PUBLIC_KEY'
+
+      const payload = {
+        service_id: SERVICE_ID,
+        template_id: TEMPLATE_ID,
+        user_id: PUBLIC_KEY,
+        template_params: {
+          from_name: name,
+          from_email: email,
+          message: message
+        }
+      }
+
+      const res = await fetch('https://olacheadev.com/CV/email.php', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      })
+
+      if (res.ok) {
+        setStatus('Mensaje enviado. Gracias!')
+        setName(''); setEmail(''); setMessage('')
+      } else {
+        const text = await res.text()
+        setStatus('Error enviando: ' + text)
+      }
+    } catch (err) {
+      setStatus('Error: ' + err.message)
+    }
+  }
+
+  return (
+    <section id="contact" className="mt-12 mb-12">
+      <h2 className="text-2xl font-bold mb-6">Contacto</h2>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="p-6 rounded-2xl bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.03)]">
+          <form className="space-y-3" onSubmit={(e) => { e.preventDefault(); handleSend(); }}>
+            <input value={name} onChange={(e) => setName(e.target.value)} className="w-full bg-transparent border border-[rgba(255,255,255,0.03)] px-3 py-2 rounded-md" placeholder="Nombre" required/>
+            <input value={email} onChange={(e) => setEmail(e.target.value)} className="w-full bg-transparent border border-[rgba(255,255,255,0.03)] px-3 py-2 rounded-md" placeholder="Correo"required />
+            <textarea value={message} onChange={(e) => setMessage(e.target.value)} className="w-full bg-transparent border border-[rgba(255,255,255,0.03)] px-3 py-2 rounded-md" rows={5} placeholder="Mensaje" required />
+            <button type="submit" className="inline-flex items-center gap-2 px-4 py-2 bg-sky-600 rounded-md">Enviar</button>
+          </form>
+
+          <div className="mt-4 text-sm text-gray-300">{status}</div>
+        </div>
+
+       
+      </div>
+    </section>
+  )
+}
