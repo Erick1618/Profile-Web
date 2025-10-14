@@ -1,8 +1,4 @@
-<?php
-// Permite solicitudes desde tu frontend (si usas dominios distintos)
-header('Content-Type: application/json; charset=utf-8');
-$json=[
-    {
+{
   "name": "Erick Augusto Olachea Ortega",
   "contact": {
     "email": "erick.olachea16@gmail.com",
@@ -169,10 +165,3 @@ $json=[
     "marital_status": "Married"
   }
 }
-
-];
-
-echo json_encode($json);
-
-
-?>

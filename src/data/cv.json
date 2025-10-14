@@ -1,0 +1,167 @@
+{
+  "name": "Erick Augusto Olachea Ortega",
+  "contact": {
+    "email": "erick.olachea16@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/erick-olachea/",
+    "mobile": "+52 646 226 2706",
+    "web": "https://olacheadev.com/CV/"
+  },
+  "education": [
+    {
+      "school": "Universidad Autónoma de Baja California",
+      "date": "Enero 2018 - Mayo 2022",
+      "degree": "Ingeniería en Computación (Titulado)"
+    },
+    {
+      "school": "Centro de Bachillerato Tecnológico, Industrial y de Servicios No. 41",
+      "date": "Agosto 2013 - Junio 2016",
+      "degree": "Técnico en Electrónica"
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "Freelancer",
+      "location": "Ensenada, B.C., México",
+      "position": "Desarrollador Web & Software QA Tester Engineer",
+      "date": "Febrero 2024 – Octubre 2025",
+      "responsibilities": [
+        "Pruebas funcionales",
+        "Pruebas automatizadas E2E",
+        "Desarrollo de aplicaciones web responsivas",
+        "Pruebas manuales",
+        "Pruebas de API",
+        "Gestión de bases de datos"
+      ]
+    },
+    {
+      "company": "Softtek",
+      "location": "Ensenada, B.C., México",
+      "position": "Software QA Tester Engineer",
+      "date": "Agosto 2022 - Abril 2025",
+      "responsibilities": [
+        "Experiencia en el sector logístico y de transportación",
+        "Experiencia en el sector bancario",
+        "Fundamentos ISTQB",
+        "Pruebas funcionales",
+        "Automatización de REST API y E2E"
+      ]
+    },
+    {
+      "company": "Freelancer",
+      "location": "Ensenada, B.C., México",
+      "position": "Desarrollador",
+      "date": "Diciembre 2021 – Agosto 2022",
+      "responsibilities": [
+        "Desarrollo de aplicaciones web",
+        "Desarrollo móvil",
+        "Desarrollo de videojuegos",
+        "Bases de datos",
+        "Programación orientada a objetos"
+      ]
+    },
+    {
+      "company": "Prácticas Profesionales",
+      "location": "Ensenada, B.C., México",
+      "position": "Desarrollador",
+      "date": "Agosto 2021 – Diciembre 2021",
+      "responsibilities": [
+        "Desarrollo de aplicaciones web",
+        "Desarrollo móvil",
+        "Bases de datos",
+        "Programación orientada a objetos"
+      ]
+    },
+    {
+      "company": "Naclaut",
+      "location": "Ensenada, B.C., México",
+      "position": "Técnico Electrónico",
+      "date": "Agosto 2016 - Mayo 2018",
+      "responsibilities": [
+        "Diseño y elaboración de tableros electromecánicos de control para desaladoras",
+        "Mantenimiento y reparación de tableros electromecánicos de control",
+        "Programación de variadores de frecuencia para control de motores eléctricos",
+        "Trato con el cliente",
+        "Cotización y compra de materiales"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Citigroup",
+      "location": "Ensenada, B.C., México",
+      "description": "Experiencia en el sector bancario",
+      "date": "Junio 2024 – Abril 2025",
+      "link": "https://olacheadev.com/CV/citigroup.pdf"
+    },
+    {
+      "name": "Crowley",
+      "location": "Ensenada, B.C., México",
+      "description": "Experiencia en el sector de logística",
+      "date": "Agosto 2022 – Junio 2024",
+      "link": "https://olacheadev.com/CV/crowley.pdf"
+    },
+    {
+      "name": "Invitaciones para Eventos",
+      "location": "Ensenada, B.C., México",
+      "description": "Experiencia en aplicaciones web",
+      "date": "Febrero 2024 – Octubre 2025",
+      "link": "https://olacheadev.com/CV/eventos.pdf"
+    },
+    {
+      "name": "Ludiderecho 2D",
+      "location": "Ensenada, B.C., México",
+      "description": "Experiencia en el sector de videojuegos",
+      "date": "Diciembre 2021 – Agosto 2022",
+      "link": "https://olacheadev.com/CV/videojuego.pdf"
+    },
+    {
+      "name": "Cafetería eCommerce",
+      "location": "Ensenada, B.C., México",
+      "description": "Experiencia en aplicaciones web",
+      "date": "Agosto 2021 – Diciembre 2021"
+    },
+    {
+      "name": "Proyectos Universitarios",
+      "location": "Ensenada, B.C., México",
+      "description": "Aplicaciones web, móviles y videojuegos",
+      "date": "Abril 2020 – Noviembre 2021"
+    }
+  ],
+  "skills": {
+    "programming": {
+      "2_years": ["C", "C#", "SQL", "Java", "JavaScript", "PHP", "HTML", "jQuery"],
+      "1_year": ["C++"],
+      "6_months": ["Python", "XML", "React"]
+    },
+    "tools": [
+      "Jira", "Mulesoft", "Postman", "Oracle SQL Developer", "MySQL", "QAComplete",
+      "SoapUI", "Visual Studio Code", "IntelliJ", "Cypress", "Cucumber",
+      "Microsoft SQL Server", "PostgreSQL", "OBS", "Arduino", "Android Studio",
+      "Unity", "Github", "RedHat", "Office", "Google Docs", "Photoshop", "Adobe Premiere"
+    ],
+    "frameworks": ["Bootstrap", "ASP.NET", "jQuery (Básico)", "Java SpringBoot (Básico)"],
+    "additional_knowledge": [
+      "STLC", "SDLC", "Análisis y diseño de historias de usuario", "Ingeniería de requerimientos",
+      "Manejo de PLC (básico)", "Instalación de sistemas operativos (Windows, Linux, etc.)",
+      "Armado y mantenimiento de computadoras"
+    ]
+  },
+  "courses_and_certifications": [
+    { "name": "Functional Testing Academy", "institution": "Softtek" },
+    { "name": "Java Spring", "institution": "Universidad Autónoma de Baja California" },
+    { "name": "Unity 2D RPG", "platform": "Udemy", "link": "https://olacheadev.com/CV/Certificado%20Udemy.pdf" },
+    { "name": "Introduction to Cybersecurity Tools & Cyber Attacks", "platform": "Coursera | IBM", "certificate": "https://www.credly.com/badges/557c4c8e-a000-4cf9-b5f9-3560fa6fc5d4/public_url" },
+    { "name": "Cybersecurity Roles, Processes & Operating System Security", "platform": "Coursera | IBM", "certificate": "https://www.credly.com/badges/64cd4a81-24dd-44ab-82f3-e0c19e8a69bb/public_url" },
+    { "name": "Cybersecurity Compliance Framework & System Administration", "platform": "Coursera | IBM", "certificate": "https://www.credly.com/badges/46016eef-e50e-46d9-99dd-17be872ac3ff/public_url" },
+    { "name": "Network Security & Database Vulnerabilities", "platform": "Coursera | IBM", "certificate": "https://www.credly.com/badges/254318f1-faa9-4041-8d7b-9c982437bc99/public_url" }
+  ],
+  "languages": {
+    "spanish": "Nativo",
+    "english": "Intermedio"
+  },
+  "personal_information": {
+    "place_of_birth": "Ensenada, Baja California, México",
+    "date_of_birth": "16 de Octubre de 1997",
+    "marital_status": "Casado"
+  }
+}
