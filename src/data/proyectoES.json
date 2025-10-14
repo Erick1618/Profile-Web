@@ -8,6 +8,8 @@
         "from": "Agosto 2022",
         "to": "Junio 2024"
       },
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10",
       "description": {
         "testing_lifecycle": "Ciclo de vida de pruebas de software: Análisis QA, planificación de pruebas, diseño de pruebas, revisión de casos de prueba, ejecución, configuración de entorno y gestión de defectos.",
         "qa_management": "QAComplete y Salesforce"
@@ -21,6 +23,7 @@
         "Pruebas manuales",
         "Pruebas de humo"
       ],
+      
       "testing_expertise": [
         "Interacción directa con el cliente para reportar estado y estimaciones de pruebas",
         "Pruebas de API usando Postman y Mulesoft (visualización de logs y respuestas)",
@@ -50,6 +53,8 @@
         "from": "Junio 2024",
         "to": "Abril 2025"
       },
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10",
       "description": {
         "testing_lifecycle": "Ciclo de vida de pruebas de software: Análisis QA, planificación de pruebas, diseño de pruebas, revisión de casos de prueba, ejecución, configuración de entorno y gestión de defectos.",
         "qa_management": "JIRA, ALM y Confluence"
@@ -94,6 +99,8 @@
         "from": "Febrero 2024",
         "to": "Octubre 2025"
       },
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10",
       "description": {
         "development_lifecycle": "Ciclo de vida del desarrollo de software: Análisis de requerimientos, desarrollo, pruebas unitarias, resolución de errores y mantenimiento de software.",
         "methodology": "Metodología en cascada: Requerimientos, diseño, implementación, pruebas, despliegue."
@@ -137,6 +144,8 @@
         "from": "Diciembre 2021",
         "to": "Agosto 2022"
       },
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10",
       "description": {
         "development_lifecycle": "Ciclo de vida del desarrollo de software: Análisis de requerimientos, desarrollo, pruebas unitarias, resolución de errores y mantenimiento de software."
       },
@@ -166,6 +175,8 @@
         "from": "Agosto 2021",
         "to": "Diciembre 2021"
       },
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10",
       "description": {
         "development_lifecycle": "Ciclo de vida del desarrollo de software: Análisis de requerimientos, desarrollo, pruebas unitarias, resolución de errores y mantenimiento de software.",
         "agile_meetings": "Planificación de sprint, reuniones quincenales, revisión de sprint y retrospectiva."

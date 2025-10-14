@@ -24,6 +24,8 @@
       "location": "Ensenada, B.C., México",
       "position": "Desarrollador Web & Software QA Tester Engineer",
       "date": "Febrero 2024 – Octubre 2025",
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10",
       "responsibilities": [
         "Pruebas funcionales",
         "Pruebas automatizadas E2E",
@@ -31,58 +33,71 @@
         "Pruebas manuales",
         "Pruebas de API",
         "Gestión de bases de datos"
-      ]
+      ],
+      "tech": ["Cypress", "JMeter","JavaScript",  "PHP", "JQuery", "Ajax", "MySQL" , "HTML", "FTP","Visual Studio Code"]
     },
     {
       "company": "Softtek",
       "location": "Ensenada, B.C., México",
       "position": "Software QA Tester Engineer",
       "date": "Agosto 2022 - Abril 2025",
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10",
       "responsibilities": [
         "Experiencia en el sector logístico y de transportación",
         "Experiencia en el sector bancario",
         "Fundamentos ISTQB",
         "Pruebas funcionales",
         "Automatización de REST API y E2E"
-      ]
+      ],
+      "tech": ["Cypress", "JMeter","JavaScript",  "PHP", "JQuery", "Ajax", "MySQL" , "HTML", "FTP","Visual Studio Code"]
     },
     {
       "company": "Freelancer",
       "location": "Ensenada, B.C., México",
       "position": "Desarrollador",
       "date": "Diciembre 2021 – Agosto 2022",
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10",
       "responsibilities": [
         "Desarrollo de aplicaciones web",
         "Desarrollo móvil",
         "Desarrollo de videojuegos",
         "Bases de datos",
         "Programación orientada a objetos"
-      ]
+      ],
+      "tech": ["Cypress", "JMeter","JavaScript",  "PHP", "JQuery", "Ajax", "MySQL" , "HTML", "FTP","Visual Studio Code"]
     },
     {
       "company": "Prácticas Profesionales",
       "location": "Ensenada, B.C., México",
       "position": "Desarrollador",
       "date": "Agosto 2021 – Diciembre 2021",
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10",
       "responsibilities": [
         "Desarrollo de aplicaciones web",
         "Desarrollo móvil",
         "Bases de datos",
         "Programación orientada a objetos"
-      ]
+      ],
+      "tech": ["Cypress", "JMeter","JavaScript",  "PHP", "JQuery", "Ajax", "MySQL" , "HTML", "FTP","Visual Studio Code"]
     },
     {
       "company": "Naclaut",
       "location": "Ensenada, B.C., México",
       "position": "Técnico Electrónico",
       "date": "Agosto 2016 - Mayo 2018",
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10",
       "responsibilities": [
         "Diseño y elaboración de tableros electromecánicos de control para desaladoras",
         "Mantenimiento y reparación de tableros electromecánicos de control",
         "Programación de variadores de frecuencia para control de motores eléctricos",
         "Trato con el cliente",
         "Cotización y compra de materiales"
-      ]
+      ],
+      "tech": ["Cypress", "JMeter","JavaScript",  "PHP", "JQuery", "Ajax", "MySQL" , "HTML", "FTP","Visual Studio Code"]
     }
   ],
   "projects": [
@@ -91,6 +106,8 @@
       "location": "Ensenada, B.C., México",
       "description": "Experiencia en el sector bancario",
       "date": "Junio 2024 – Abril 2025",
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10",
       "link": "https://olacheadev.com/CV/citigroup.pdf"
     },
     {
@@ -98,6 +115,8 @@
       "location": "Ensenada, B.C., México",
       "description": "Experiencia en el sector de logística",
       "date": "Agosto 2022 – Junio 2024",
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10",
       "link": "https://olacheadev.com/CV/crowley.pdf"
     },
     {
@@ -105,6 +124,8 @@
       "location": "Ensenada, B.C., México",
       "description": "Experiencia en aplicaciones web",
       "date": "Febrero 2024 – Octubre 2025",
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10",
       "link": "https://olacheadev.com/CV/eventos.pdf"
     },
     {
@@ -112,19 +133,25 @@
       "location": "Ensenada, B.C., México",
       "description": "Experiencia en el sector de videojuegos",
       "date": "Diciembre 2021 – Agosto 2022",
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10",
       "link": "https://olacheadev.com/CV/videojuego.pdf"
     },
     {
       "name": "Cafetería eCommerce",
       "location": "Ensenada, B.C., México",
       "description": "Experiencia en aplicaciones web",
-      "date": "Agosto 2021 – Diciembre 2021"
+      "date": "Agosto 2021 – Diciembre 2021",
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10"
     },
     {
       "name": "Proyectos Universitarios",
       "location": "Ensenada, B.C., México",
       "description": "Aplicaciones web, móviles y videojuegos",
-      "date": "Abril 2020 – Noviembre 2021"
+      "date": "Abril 2020 – Noviembre 2021",
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10"
     }
   ],
   "skills": {

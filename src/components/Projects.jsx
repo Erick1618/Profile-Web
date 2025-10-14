@@ -15,7 +15,7 @@ export default function Projects() {
       <h2 className="text-2xl font-bold mb-6">Proyectos Destacados</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {PROJECTS.map((p, i) => (
-          <article key={i} className="p-6 rounded-2xl bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.03)]">
+          <article key={i} className="p-6 rounded-2xl bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.03)] backdrop-blur-sm shadow-lg shadow-blue-500/20">
             <div className="flex items-start justify-between">
               <div>
                 <div className="text-lg font-semibold">{p.title}</div>

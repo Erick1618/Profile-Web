@@ -31,7 +31,7 @@ export default function Websites() {
         {WEBSITES.map((site, idx) => (
   <motion.div
     key={idx}
-    className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.06)] rounded-2xl overflow-hidden shadow-lg hover:shadow-blue-500/20 transition-all flex flex-col items-center p-4"
+    className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.06)] rounded-2xl overflow-hidden shadow-lg shadow-blue-500/20 transition-all flex flex-col items-center p-4"
     initial={{ opacity: 0, y: 40 }}
     whileInView={{ opacity: 1, y: 0 }}
     viewport={{ once: true }}

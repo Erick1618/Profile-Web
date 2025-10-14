@@ -24,6 +24,8 @@
       "location": "Ensenada, B.C., Mexico",
       "position": "Web Developer & Software QA Tester Engineer",
       "date": "August 2024 – October 2025",
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10",
       "responsibilities": [
         "Functional Testing",
         "Automation Testing E2E",
@@ -38,6 +40,8 @@
       "location": "Ensenada, B.C., Mexico",
       "position": "QA Software Tester Engineer",
       "date": "August 2022 - April 2025",
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10",
       "responsibilities": [
         "Experience in the logistics and transportation sector",
         "Experience in the banking sector",
@@ -51,6 +55,8 @@
       "location": "Ensenada, B.C., Mexico",
       "position": "Developer",
       "date": "December 2021 – August 2022",
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10",
       "responsibilities": [
         "Web Application Development",
         "Mobile Development",
@@ -64,6 +70,8 @@
       "location": "Ensenada, B.C., Mexico",
       "position": "Developer",
       "date": "August 2021 – December 2021",
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10",
       "responsibilities": [
         "Web Application Development",
         "Mobile Development",
@@ -76,6 +84,8 @@
       "location": "Ensenada, B.C., Mexico",
       "position": "Electronic Technician",
       "date": "August 2016 - May 2018",
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10",
       "responsibilities": [
         "Design and development of electromechanical control panels for desalination plants",
         "Maintenance and repair of electromechanical control panels",
@@ -91,6 +101,8 @@
       "location": "Ensenada, B.C., Mexico",
       "description": "Experience in the banking sector",
       "date": "June 2024 – April 2025",
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10",
       "link": "https://olacheadev.com/CV/CitigroupEN.pdf"
     },
     {
@@ -98,6 +110,8 @@
       "location": "Ensenada, B.C., Mexico",
       "description": "Experience in the logistics sector",
       "date": "August 2022 – June 2024",
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10",
       "link": "https://olacheadev.com/CV/CrowleyEN.pdf"
     },
     {
@@ -105,6 +119,8 @@
       "location": "Ensenada, B.C., Mexico",
       "description": "Experience in web applications",
       "date": "February 2024 – October 2025",
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10",
       "link": "https://olacheadev.com/CV/EventosEN.pdf"
     },
     {
@@ -112,17 +128,23 @@
       "location": "Ensenada, B.C., Mexico",
       "description": "Experience in the video game sector",
       "date": "December 2021 – August 2022",
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10",
       "link": "https://olacheadev.com/CV/VideojuegoEN.pdf"
     },
     {
       "name": "eCommerce Cafeteria",
       "location": "Ensenada, B.C., Mexico",
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10",
       "description": "Experience in web applications",
       "date": "August 2021 – December 2021"
     },
     {
       "name": "University Projects",
       "location": "Ensenada, B.C., Mexico",
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10",
       "description": "Experience in web, mobile, and video game applications",
       "date": "April 2020 – November 2021"
     }

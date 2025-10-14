@@ -76,16 +76,14 @@ export function calcularEdad(fechaInicio, fechaFin) {
 
 
 export default function Experience() {
-  const { t } = useTranslation();
+  const { t } = useTranslation("general");
 
   // Opción 1: si quieres mapear el array completo:
-  const projects = t("projects", { returnObjects: true });
-  // 2️⃣ Accedes a arrays dentro del objeto:
-  const list = t("projects.list", { returnObjects: true });
+  const experiencia = t("work_experience", { returnObjects: true }) || [];
 
-
+console.log(experiencia);
   const res = [];
-  EXPERIENCE.map((item1, id) => (res[id] = calcularEdad(item1.fechaInicio, item1.fechaTermino)));
+  experiencia.map((item1, id) => (res[id] = calcularEdad(item1.dateB, item1.dateEnd)));
 
   return (
     <section id="experience" className="mt-16 px-4 md:px-0 relative">
@@ -97,7 +95,7 @@ export default function Experience() {
         {/* Línea central (visible a la izquierda en móvil, centrada en desktop) */}
         <div className="absolute left-6 md:left-1/2 top-0 bottom-0 w-[2px] bg-gradient-to-b from-blue-500/30 to-purple-500/30 md:translate-x-[-50%]" />
 
-        {EXPERIENCE.map((item, idx) => (
+        {experiencia.map((item, idx) => (
           <motion.div
             key={idx}
             className={`relative flex flex-col md:flex-row items-start mb-6 md:mb-10 ${
@@ -121,7 +119,7 @@ export default function Experience() {
                 <h3 className="text-lg md:text-xl font-semibold text-gray-100">
                   {item.company}
                 </h3>
-                <p className="text-blue-400 text-sm md:text-base">{item.role}</p>
+                <p className="text-blue-400 text-sm md:text-base">{item.position}</p>
                 <p className="text-xs md:text-sm text-gray-400">
                  {item.period} · {res[idx].years} {res[idx].anio} {res[idx].months} {res[idx].mes}
                 </p>

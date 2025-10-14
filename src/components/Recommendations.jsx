@@ -40,7 +40,7 @@ export default function Recommendations() {
         
         {RECOMMENDATIONS.map((r, i) => (
         
-          <blockquote key={i} className="p-4 rounded-md bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.03)]">
+          <blockquote key={i} className="p-4 rounded-md bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.03)] backdrop-blur-sm shadow-lg shadow-blue-500/10">
             <PDFViewer pdfUrl={r.path} />
             <footer className="mt-2 text-md text-gray-200">— {r.author}, {r.role}</footer>
           </blockquote>

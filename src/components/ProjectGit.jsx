@@ -6,7 +6,7 @@ export default function Projects() {
   const [repos, setRepos] = useState([]);
 
   useEffect(() => {
-    fetch("https://api.github.com/users/Erick1618/repos?sort=updated&per_page=7")
+    fetch("https://api.github.com/users/Erick1618/repos?sort=updated&per_page=10")
       .then((res) => res.json())
       .then((data) => setRepos(data))
       .catch((err) => console.error("Error al obtener repositorios:", err));
@@ -27,7 +27,7 @@ export default function Projects() {
               href={repo.html_url}
               target="_blank"
               rel="noopener noreferrer"
-              className="block bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.06)] rounded-xl p-5 hover:shadow-lg hover:shadow-blue-500/10 transition-all"
+              className="block bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.06)] rounded-xl p-5 shadow-lg shadow-blue-500/10  transition-all"
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}

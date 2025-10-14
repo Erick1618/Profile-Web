@@ -8,6 +8,8 @@
         "from": "Aug 2022",
         "to": "Jun 2024"
       },
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10",
       "description": {
         "testing_lifecycle": "Software Testing Life Cycle: QA Analysis, Test planning, Test design, Test Case Peer Review, Test execution, Test Environment Setup, Defect Management",
         "qa_management": "QAComplete and Salesforce"
@@ -50,6 +52,8 @@
         "from": "Jun 2024",
         "to": "Apr 2025"
       },
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10",
       "description": {
         "testing_lifecycle": "Software Testing Life Cycle: QA Analysis, Test planning, Test design, Test Case Peer Review, Test execution, Test Environment Setup, Defect Management",
         "qa_management": "JIRA, ALM and Confluence"
@@ -94,6 +98,8 @@
         "from": "Feb 2024",
         "to": "Oct 2025"
       },
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10",
       "description": {
         "development_lifecycle": "Software Development Life Cycle: Requirement Analysis, Developing, Unit Testing, Bugs Solving, Software maintenance",
         "methodology": "Waterfall: Requirements, System Design, Implementation, Testing, Deployment"
@@ -138,6 +144,8 @@
         "from": "Dec 2021",
         "to": "Aug 2022"
       },
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10",
       "description": {
         "development_lifecycle": "Software Development Life Cycle: Requirement Analysis, Developing, Unit Testing, Bugs Solving, Software maintenance"
       },
@@ -167,6 +175,8 @@
         "from": "Aug 2021",
         "to": "Dec 2021"
       },
+      "dateB":"2024-02-01",
+      "dateEnd":"2025-10-10",
       "description": {
         "development_lifecycle": "Software Development Life Cycle: Requirement Analysis, Developing, Unit Testing, Bugs Solving, Software maintenance",
         "agile_meetings": "Sprint Planning, Biweekly Standups, Sprint Review and Retrospective"

@@ -22,6 +22,8 @@ i18n
     },
     lng: "es", // idioma inicial (puede ser 'en' o 'es')
     fallbackLng: "en", // si falta alguna traducción, usa inglés
+    ns: ["general", "projects"], // 👈 nombres de los namespaces
+    defaultNS: "general", // 👈 namespace por defecto
     interpolation: {
       escapeValue: false, // React ya se encarga de proteger el HTML
     },

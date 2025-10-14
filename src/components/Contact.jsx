@@ -48,7 +48,7 @@ export default function Contact() {
       <h2 className="text-2xl font-bold mb-6">Contacto</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="p-6 rounded-2xl bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.03)]">
+        <div className="p-6 rounded-2xl bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.03)] backdrop-blur-sm shadow-lg shadow-blue-500/20">
           <form onSubmit={(e) => {
             e.preventDefault();
             trackContactFormSubmit();
