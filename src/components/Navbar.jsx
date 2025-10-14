@@ -5,6 +5,7 @@ import profilePic from '../image/logo.png';
 import { Link, useLocation } from "react-router-dom";
 import { trackNavbarClick } from "../analytics/gaEvents";
 import { trackDownloadCV } from "../analytics/gaEvents";
+import LanguageSwitcher from "./LanguageSwitcher";
 /*export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const location = useLocation();
@@ -124,7 +125,7 @@ export default function Navbar() {
            download onClick={trackDownloadCV}>
             Descargar CV
           </a>
-          
+          <LanguageSwitcher />
         </div>
 
         

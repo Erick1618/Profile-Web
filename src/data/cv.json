@@ -20,7 +20,7 @@
   ],
   "work_experience": [
     {
-      "company": "Freelancer",
+      "company": "Independiente",
       "location": "Ensenada, B.C., México",
       "position": "Desarrollador Web & Software QA Tester Engineer",
       "date": "Febrero 2024 – Octubre 2025",
@@ -53,9 +53,9 @@
       "tech": ["Cypress", "JMeter","JavaScript",  "PHP", "JQuery", "Ajax", "MySQL" , "HTML", "FTP","Visual Studio Code"]
     },
     {
-      "company": "Freelancer",
+      "company": "Independiente",
       "location": "Ensenada, B.C., México",
-      "position": "Desarrollador",
+      "position": "Desarrollador Web y Video Juegos",
       "date": "Diciembre 2021 – Agosto 2022",
       "dateB":"2024-02-01",
       "dateEnd":"2025-10-10",
