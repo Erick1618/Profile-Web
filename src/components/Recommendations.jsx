@@ -1,6 +1,8 @@
 import React from 'react'
 import { RECOMMENDATIONS } from '../data/recommendations'
 
+import { useTranslation } from "react-i18next";
+
 
 export function PDFViewer({ pdfUrl }) {
   return (
@@ -31,14 +33,16 @@ export function PDFViewer({ pdfUrl }) {
 
 
 export default function Recommendations() {
+  const { t } = useTranslation("web");
+      const web = t("web.sections.recomendation", { returnObjects: true }) || [];
   
   return (
    
     <section id="recommendations" className="mt-12">
-      <h2 className="text-2xl font-bold mb-6">Cartas y Recomendaciones</h2>
+      <h2 className="text-2xl font-bold mb-6">{web.title}</h2>
       <div className="space-y-4">
         
-        {RECOMMENDATIONS.map((r, i) => (
+        {web.Letters.map((r, i) => (
         
           <blockquote key={i} className="p-4 rounded-md bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.03)] backdrop-blur-sm shadow-lg shadow-blue-500/10">
             <PDFViewer pdfUrl={r.path} />

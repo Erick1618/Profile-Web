@@ -21,9 +21,9 @@
   "work_experience": [
     {
       "company": "Independiente",
-      "location": "Ensenada, B.C., México",
+      "location": "Ensenada, Baja California, México · En remoto",
       "position": "Desarrollador Web & Software QA Tester Engineer",
-      "date": "Febrero 2024 – Octubre 2025",
+      "date": "Febredo 2024 - Actualidad",
       "dateB":"2024-02-01",
       "dateEnd":"2025-10-10",
       "responsibilities": [
@@ -38,11 +38,11 @@
     },
     {
       "company": "Softtek",
-      "location": "Ensenada, B.C., México",
+      "location": "Ensenada, Baja California, México · En remoto",
       "position": "Software QA Tester Engineer",
       "date": "Agosto 2022 - Abril 2025",
-      "dateB":"2024-02-01",
-      "dateEnd":"2025-10-10",
+      "dateB":"2022-08-10",
+      "dateEnd":"2025-04-08",
       "responsibilities": [
         "Experiencia en el sector logístico y de transportación",
         "Experiencia en el sector bancario",
@@ -50,15 +50,15 @@
         "Pruebas funcionales",
         "Automatización de REST API y E2E"
       ],
-      "tech": ["Cypress", "JMeter","JavaScript",  "PHP", "JQuery", "Ajax", "MySQL" , "HTML", "FTP","Visual Studio Code"]
+      "tech": ["Cypress", "Postman","JIRA", "ALM", "QAComplete", "SoapUI", "Cucumber", "SQL" , "MuleSoft", "RedHat", "Eclipce", "IntelliJ IDEA", "Functional Testing"]
     },
     {
       "company": "Independiente",
-      "location": "Ensenada, B.C., México",
+      "location": "Ensenada, Baja California, México · En remoto",
       "position": "Desarrollador Web y Video Juegos",
-      "date": "Diciembre 2021 – Agosto 2022",
-      "dateB":"2024-02-01",
-      "dateEnd":"2025-10-10",
+      "date": "Dic 2021 - Agosto 2022",
+      "dateB":"2021-12-01",
+      "dateEnd":"2022-08-10",
       "responsibilities": [
         "Desarrollo de aplicaciones web",
         "Desarrollo móvil",
@@ -66,30 +66,30 @@
         "Bases de datos",
         "Programación orientada a objetos"
       ],
-      "tech": ["Cypress", "JMeter","JavaScript",  "PHP", "JQuery", "Ajax", "MySQL" , "HTML", "FTP","Visual Studio Code"]
+      "tech": ["Unity", "Postman","C#", "JS", "PHP", "JQuery", "Ajax", "PostgreSQL" , "HTML", "FTP", "Visual Studio Code"]
     },
     {
       "company": "Prácticas Profesionales",
-      "location": "Ensenada, B.C., México",
+      "location": "Ensenada, Baja California, México · Presencial",
       "position": "Desarrollador",
-      "date": "Agosto 2021 – Diciembre 2021",
-      "dateB":"2024-02-01",
-      "dateEnd":"2025-10-10",
+      "date": "Agosto 2021 - Dic 2021",
+      "dateB":"2021-08-01",
+      "dateEnd":"2021-12-10",
       "responsibilities": [
         "Desarrollo de aplicaciones web",
         "Desarrollo móvil",
         "Bases de datos",
         "Programación orientada a objetos"
       ],
-      "tech": ["Cypress", "JMeter","JavaScript",  "PHP", "JQuery", "Ajax", "MySQL" , "HTML", "FTP","Visual Studio Code"]
+      "tech": ["Trello", "Postman","JMeter", "PHP", "HTML", "Java", "AndroidStudio", "MySQL" , "JQuery", "Visual Studio Code"]
     },
     {
       "company": "Naclaut",
-      "location": "Ensenada, B.C., México",
+      "location": "Ensenada, Baja California, México · Presencial",
       "position": "Técnico Electrónico",
       "date": "Agosto 2016 - Mayo 2018",
-      "dateB":"2024-02-01",
-      "dateEnd":"2025-10-10",
+      "dateB":"2016-08-01",
+      "dateEnd":"2018-05-20",
       "responsibilities": [
         "Diseño y elaboración de tableros electromecánicos de control para desaladoras",
         "Mantenimiento y reparación de tableros electromecánicos de control",
@@ -97,13 +97,13 @@
         "Trato con el cliente",
         "Cotización y compra de materiales"
       ],
-      "tech": ["Cypress", "JMeter","JavaScript",  "PHP", "JQuery", "Ajax", "MySQL" , "HTML", "FTP","Visual Studio Code"]
+      "tech": ["Diagramas de Flujo", "PLC","Multimetro", "Variador de Frecuencia", "Osciloscopio"]
     }
   ],
   "projects": [
     {
       "name": "Citigroup",
-      "location": "Ensenada, B.C., México",
+      "location": "Ensenada, Baja California, México · En remoto",
       "description": "Experiencia en el sector bancario",
       "date": "Junio 2024 – Abril 2025",
       "dateB":"2024-02-01",
@@ -112,7 +112,7 @@
     },
     {
       "name": "Crowley",
-      "location": "Ensenada, B.C., México",
+      "location": "Ensenada, Baja California, México · En remoto",
       "description": "Experiencia en el sector de logística",
       "date": "Agosto 2022 – Junio 2024",
       "dateB":"2024-02-01",
@@ -121,7 +121,7 @@
     },
     {
       "name": "Invitaciones para Eventos",
-      "location": "Ensenada, B.C., México",
+      "location": "Ensenada, Baja California, México · En remoto",
       "description": "Experiencia en aplicaciones web",
       "date": "Febrero 2024 – Octubre 2025",
       "dateB":"2024-02-01",
@@ -130,7 +130,7 @@
     },
     {
       "name": "Ludiderecho 2D",
-      "location": "Ensenada, B.C., México",
+      "location": "Ensenada, Baja California, México · En remoto",
       "description": "Experiencia en el sector de videojuegos",
       "date": "Diciembre 2021 – Agosto 2022",
       "dateB":"2024-02-01",
@@ -139,7 +139,7 @@
     },
     {
       "name": "Cafetería eCommerce",
-      "location": "Ensenada, B.C., México",
+      "location": "Ensenada, Baja California, México · Presencial",
       "description": "Experiencia en aplicaciones web",
       "date": "Agosto 2021 – Diciembre 2021",
       "dateB":"2024-02-01",
@@ -147,7 +147,7 @@
     },
     {
       "name": "Proyectos Universitarios",
-      "location": "Ensenada, B.C., México",
+      "location": "Ensenada, Baja California, México · Presencial",
       "description": "Aplicaciones web, móviles y videojuegos",
       "date": "Abril 2020 – Noviembre 2021",
       "dateB":"2024-02-01",

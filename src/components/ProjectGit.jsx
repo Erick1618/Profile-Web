@@ -1,8 +1,12 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Github } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export default function Projects() {
+
+  const { t } = useTranslation("web");
+        const web = t("web.sections", { returnObjects: true }) || [];
   const [repos, setRepos] = useState([]);
 
   useEffect(() => {
@@ -16,7 +20,7 @@ export default function Projects() {
     <section id="projects" className="mt-16 px-4 md:px-0 max-w-6xl mx-auto">
       <h2 className="text-3xl font-bold text-center mb-10 text-gray-100">
         <Github className="inline-block w-7 h-7 mr-2 text-blue-400" />
-        Proyectos de GitHub
+        {web.github}
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

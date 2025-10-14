@@ -1,8 +1,13 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import profilePic from '../image/user.png';
+import { useTranslation } from "react-i18next";
 
 export default function Hero() {
+   const { t } = useTranslation("web");
+    const web = t("web", { returnObjects: true }) || [];
+   
+
   return (
     <section className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center py-12">
       <div className="flex justify-center md:justify-start">
@@ -21,16 +26,16 @@ export default function Hero() {
       </div>
 
       <div className="md:col-span-2">
-        <motion.h1 initial={{ opacity: 1, y: 8 }} animate={{ opacity: 2, y: 0 }} transition={{ duration: 0.8 }} className="text-4xl md:text-5xl font-extrabold leading-tight">¡Hola!, Soy 👋 </motion.h1>
-        <motion.h1 initial={{ opacity: 1, y: 8 }} animate={{ opacity: 2, y: 0 }} transition={{ duration: 0.8 }} className="mt-3 text-4xl md:text-5xl font-extrabold leading-tight"> <span className="text-white">Erick Augusto Olachea Ortega</span> </motion.h1>
-        <p className="mt-3 text-xl text-sky-300">QA Software Tester Engineer · Web Developer</p>
+        <motion.h1 initial={{ opacity: 1, y: 8 }} animate={{ opacity: 2, y: 0 }} transition={{ duration: 0.8 }} className="text-4xl md:text-5xl font-extrabold leading-tight">{web.presentation}</motion.h1>
+        <motion.h1 initial={{ opacity: 1, y: 8 }} animate={{ opacity: 2, y: 0 }} transition={{ duration: 0.8 }} className="mt-3 text-4xl md:text-5xl font-extrabold leading-tight"> <span className="text-white">{web.name}</span> </motion.h1>
+        <p className="mt-3 text-xl text-sky-300">{web.rol}</p>
 
         <div className="mt-6 flex flex-wrap gap-3">
-          <a href="#projects" className="inline-flex items-center px-5 py-3 bg-sky-600 hover:bg-sky-700 text-white rounded-lg shadow-lg">Ver proyectos</a>
-          <a href="#contact" className="inline-flex items-center px-5 py-3 bg-transparent border border-gray-700 hover:border-gray-500 rounded-lg">Contactar</a>
+          <a href="#projects" className="inline-flex items-center px-5 py-3 bg-sky-600 hover:bg-sky-700 text-white rounded-lg shadow-lg">{web.btnprojects}</a>
+          <a href="#contact" className="inline-flex items-center px-5 py-3 bg-transparent border border-gray-700 hover:border-gray-500 rounded-lg">{web.btncontact}</a>
         </div>
 
-        <p className="mt-6 text-gray-400">Ingeniero de QA con experiencia en analisis, diseño y ejecucion de pruebas funcionales: como pruebas de regresion, de integrasion, de API , Humo, manuales y automatización de pruebas de API REST y E2E. Seguimiento de requerimientos y gestión de defectos, Con experiencia en metodologías ágiles y control de versiones, trabajando bajo STLC, SDLC y con Fundamentos ISTQ. Integración continua y mejora de procesos de calidad, me interesa resolver problemas complejos mediante pruebas sólidas y reproducibles. Tambien, realizo desarrollo de aplicaciones web y videojuegos. </p>
+        <p className="mt-6 text-gray-400">{web.description}</p>
       </div>
     </section>
   )

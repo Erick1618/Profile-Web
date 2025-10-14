@@ -1,0 +1,98 @@
+{
+  "web":{
+    "presentation": "Hello! I'm 👋",
+    "name": "Erick Augusto Olachea Ortega",
+    "contact": {
+      "email": "erick.olachea16@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/erick-olachea/",
+      "mobile": "+52 646 226 2706"
+    },
+    "rol":"QA Software Tester Engineer · Web Developer",
+    "description":"QA Engineer with experience in analysis, design, and execution of functional tests: such as regression, integration, API, smoke, manual, and automation testing of REST and E2E APIs. Requirements tracking and defect management, with experience in agile methodologies and version control, working under STLC, SDLC, and ISTQ fundamentals. Continuous integration and improvement of quality processes, I am interested in solving complex problems through robust and reproducible testing. I also develop web applications and video games.",
+    "btncontact":"contact",
+    "btnprojects":"projects",
+    "navbar": 
+      {
+        "experience":"Experience",
+        "project": "Projects",
+        "contact": "contact",
+        "download": "Download Resume"
+      },
+    "sections": 
+      {
+          "experience":{
+          "title":"Professional Experience",
+          "year":"year",
+          "years":"years",
+          "month":"month",
+          "months":"months"
+        },
+          "skills": {
+          "title":"Skills",
+          "titlehard":"Hard Skills",
+          "titlesoft":"Soft Skills",
+          "hard":[
+            { "name": "Software Testing & QA: Functional Testing, API Testing, REST API Automation, Test Case Design, Test Data Analysis, Defect Management, QA Process Improvement.", "level": 65 },
+            { "name": "Tools & Frameworks: Postman, SOAP UI, JIRA, ALM, Confluence, Cypress, Cucumber, Mulesoft, QAComplete.", "level": 75 },
+            { "name": "Programming Languages: C, C#, Java, JavaScript, PHP, SQL, HTML, CSS, jQuery, Python (basic).", "level": 75 },
+            { "name": "Databases: MySQL, Oracle SQL Developer, PostgreSQL, Microsoft SQL Server.", "level": 75 },
+            { "name": "Game Development: Unity 2D, C# scripting, asset integration, object oriented programming.", "level": 75 },
+            { "name": "Control de Versiones e IDEs: GitHub, Visual Studio, IntelliJ, Android Studio, VS Code", "level": 75 },
+            { "name": "Web & Mobile Development: Responsive design, HTML/CSS/Bootstrap, PHP, JavaScript, AJAX, Android/iOS apps.", "level": 75 }
+          ],
+          "soft":["Communication", "Teamwork", "Organización", "Responsibility", "Critical thinking", "Proactivity", "Analytical Thinking", "Adaptability", "Problem Solving", "Continuous Learning"]
+        },
+          "projects": "Featured Projects",
+          "github": "GitHub Projects",
+          "pages": {
+            "title":"My Websites",
+            "sites":[
+             {
+              "title":"Invitacion Boda",
+              "url": "https://olacheadev.com/VaronicayMarco/",
+              "description":"Personalized and interactive invitation for an event.(Test: invitado boda)"
+              },
+              {
+              "title":"Administracion de Invitaciones",
+              "url": "https://olacheadev.com/admin/",
+              "description":"Intuitive control dashboard to manage invitations.(Test: user, password)"
+              },
+              {
+              "title":"Delegacion 74",
+              "url":"https://di74.olacheadev.com/",
+              "description":"Pagina de la Delegacion 74 de los maestros de la Sección 37 del SNTE."
+              }
+            ]
+          },
+          "recomendation": {
+            "title":"Letters y Recommendations",
+            "Letters":[{ 
+                "path": "https://olacheadev.com/CV/archivos/Carta_de_recomendacion_softtek.pdf",
+                "author": "Softtek",
+                "role": "Human Resources Administrator"
+              },
+              { 
+                "path": "https://olacheadev.com/CV/archivos/Constancia_BFS.pdf", 
+                "author": "BFS INGENIERIA APLICADA in Softtek", 
+                "role": "Human Resources Administrator" 
+              },
+              { 
+                "path": "https://olacheadev.com/CV/archivos/Recomendacion_prof.pdf", 
+                "author": "José Manuel Valencia Moreno", 
+                "role": "Master's Degree in Software Engineering"
+              }
+
+            ]
+          
+        },"contact": {
+            "title":"Contact",
+            "name":"Name",
+            "email":"Email",
+            "message":"Message",
+            "send":"Send"
+          }
+
+      }
+    
+  }
+}

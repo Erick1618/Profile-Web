@@ -3,13 +3,14 @@ import { EXPERIENCE } from '../data/experience'
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 
-export function calcularEdad(fechaInicio, fechaFin) {
+export function calcularEdad(fechaInicio, fechaFin,fecha) {
   const start = new Date(fechaInicio);
   const end = new Date(fechaFin);
   let anio;
   let mes;
   let years = end.getFullYear() - start.getFullYear();
   let months = end.getMonth() - start.getMonth();
+  
 
   // Ajuste si el mes actual es menor que el mes inicial
   if (months < 0) {
@@ -20,16 +21,16 @@ export function calcularEdad(fechaInicio, fechaFin) {
   //ajustar palabras en plural
   if(months==1){
     
-    mes='mes';
+    mes=fecha.month;
   }else{
-     mes='meses';
+     mes=fecha.months;
   }
 
   if(years==1){
     
-    anio='año';
+    anio=fecha.year;
   }else{
-     anio='años';
+     anio=fecha.years;
   }
 
   return { years, months, mes,anio };
@@ -76,19 +77,21 @@ export function calcularEdad(fechaInicio, fechaFin) {
 
 
 export default function Experience() {
-  const { t } = useTranslation("general");
-
+ const { t } = useTranslation(["web","general"]);
+  
+ const web  =t("web.sections.experience", { ns: "web",returnObjects: true })|| [];
+console.log(web);
   // Opción 1: si quieres mapear el array completo:
-  const experiencia = t("work_experience", { returnObjects: true }) || [];
+  const experiencia  = t("work_experience", { ns: "general", returnObjects: true }) || [];
 
 console.log(experiencia);
   const res = [];
-  experiencia.map((item1, id) => (res[id] = calcularEdad(item1.dateB, item1.dateEnd)));
+  experiencia.map((item1, id) => (res[id] = calcularEdad(item1.dateB, item1.dateEnd,web)));
 
   return (
     <section id="experience" className="mt-16 px-4 md:px-0 relative">
       <h2 className="text-3xl font-bold text-center mb-12 text-gray-100">
-        Experiencia Profesional
+        {web.title}
       </h2>
 
       <div className="relative max-w-4xl mx-auto">
@@ -121,7 +124,7 @@ console.log(experiencia);
                 </h3>
                 <p className="text-blue-400 text-sm md:text-base">{item.position}</p>
                 <p className="text-xs md:text-sm text-gray-400">
-                 {item.period} · {res[idx].years} {res[idx].anio} {res[idx].months} {res[idx].mes}
+                 {item.date} · {res[idx].years} {res[idx].anio} {res[idx].months} {res[idx].mes}
                 </p>
                 <p className="text-xs md:text-sm text-gray-500">{item.location}</p>
               </div>

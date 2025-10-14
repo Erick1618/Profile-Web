@@ -21,7 +21,7 @@
   "work_experience": [
     {
       "company": "Freelancer",
-      "location": "Ensenada, B.C., Mexico",
+      "location": "Ensenada, Baja California, México · Home Office",
       "position": "Web Developer & Software QA Tester Engineer",
       "date": "August 2024 – October 2025",
       "dateB":"2024-02-01",
@@ -38,11 +38,11 @@
     },
     {
       "company": "Softtek",
-      "location": "Ensenada, B.C., Mexico",
+      "location": "Ensenada, Baja California, México · Home Office",
       "position": "QA Software Tester Engineer",
       "date": "August 2022 - April 2025",
-      "dateB":"2024-02-01",
-      "dateEnd":"2025-10-10",
+      "dateB":"2022-08-10",
+      "dateEnd":"2025-04-08",
       "responsibilities": [
         "Experience in the logistics and transportation sector",
         "Experience in the banking sector",
@@ -50,15 +50,15 @@
         "Functional Testing",
         "REST API and E2E automation"
       ],
-      "tech": ["Cypress", "JMeter","JavaScript",  "PHP", "JQuery", "Ajax", "MySQL" , "HTML", "FTP","Visual Studio Code"]
+      "tech":  ["Cypress", "Postman","JIRA", "ALM", "QAComplete", "SoapUI", "Cucumber", "SQL" , "MuleSoft", "RedHat", "Eclipce", "IntelliJ IDEA", "Functional Testing"]
     },
     {
       "company": "Freelancer",
-      "location": "Ensenada, B.C., Mexico",
+      "location": "Ensenada, Baja California, México · Home Office",
       "position": "Web and Video Game Developer",
       "date": "December 2021 – August 2022",
-      "dateB":"2024-02-01",
-      "dateEnd":"2025-10-10",
+      "dateB":"2021-12-01",
+      "dateEnd":"2022-08-10",
       "responsibilities": [
         "Web Application Development",
         "Mobile Development",
@@ -66,26 +66,26 @@
         "Databases",
         "Object-Oriented Programming"
       ],
-      "tech": ["Cypress", "JMeter","JavaScript",  "PHP", "JQuery", "Ajax", "MySQL" , "HTML", "FTP","Visual Studio Code"]
+      "tech":["Unity", "Postman","C#", "JS", "PHP", "JQuery", "Ajax", "PostgreSQL" , "HTML", "FTP", "Visual Studio Code"]
     },
     {
       "company": "Internship",
-      "location": "Ensenada, B.C., Mexico",
+      "location": "Ensenada, Baja California, México · Presential",
       "position": "Developer",
       "date": "August 2021 – December 2021",
-      "dateB":"2024-02-01",
-      "dateEnd":"2025-10-10",
+      "dateB":"2021-08-01",
+      "dateEnd":"2021-12-10",
       "responsibilities": [
         "Web Application Development",
         "Mobile Development",
         "Databases",
         "Object-Oriented Programming"
       ],
-      "tech": ["Cypress", "JMeter","JavaScript",  "PHP", "JQuery", "Ajax", "MySQL" , "HTML", "FTP","Visual Studio Code"]
+      "tech": ["Trello", "Postman","JMeter", "PHP", "HTML", "Java", "AndroidStudio", "MySQL" , "JQuery", "Visual Studio Code"]
     },
     {
       "company": "Naclaut",
-      "location": "Ensenada, B.C., Mexico",
+      "location": "Ensenada, Baja California, México · Presential",
       "position": "Electronic Technician",
       "date": "August 2016 - May 2018",
       "dateB":"2024-02-01",
@@ -97,7 +97,7 @@
         "Customer relations",
         "Quotation and material purchasing for desalination plant manufacturing"
       ],
-      "tech": ["Cypress", "JMeter","JavaScript",  "PHP", "JQuery", "Ajax", "MySQL" , "HTML", "FTP","Visual Studio Code"]
+      "tech": ["Flowcharts", "PLC","Multimeter", "Variable Frequency Drive", "Oscilloscope"]
     }
   ],
   "projects": [

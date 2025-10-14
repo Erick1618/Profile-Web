@@ -3,16 +3,19 @@ import { Link } from "react-router-dom"
 import { PROJECTS } from "../data/projects"
 import { trackProjectClick } from "../analytics/gaEvents";
 import { useNavigate } from 'react-router-dom'
+import { useTranslation } from "react-i18next";
 
 
   
 
 
 export default function Projects() {
+  const { t } = useTranslation("web");
+        const web = t("web.sections", { returnObjects: true }) || [];
   
   return (
     <section id="projects" className="mt-12">
-      <h2 className="text-2xl font-bold mb-6">Proyectos Destacados</h2>
+      <h2 className="text-2xl font-bold mb-6">{web.projects}</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {PROJECTS.map((p, i) => (
           <article key={i} className="p-6 rounded-2xl bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.03)] backdrop-blur-sm shadow-lg shadow-blue-500/20">

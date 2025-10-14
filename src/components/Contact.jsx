@@ -1,9 +1,14 @@
 import React, { useState } from 'react'
 import { trackContactFormSubmit } from "../analytics/gaEvents";
 
+import { useTranslation } from "react-i18next";
+
 // This uses EmailJS (client-side). Replace SERVICE_ID, TEMPLATE_ID, PUBLIC_KEY with your EmailJS values.
 // See https://www.emailjs.com/docs/sdk/installation/ for setup.
 export default function Contact() {
+      const { t } = useTranslation("web");
+          const web = t("web.sections.contact", { returnObjects: true }) || [];
+
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
@@ -45,7 +50,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="mt-12 mb-12">
-      <h2 className="text-2xl font-bold mb-6">Contacto</h2>
+      <h2 className="text-2xl font-bold mb-6">{web.title}</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="p-6 rounded-2xl bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.03)] backdrop-blur-sm shadow-lg shadow-blue-500/20">
@@ -53,11 +58,11 @@ export default function Contact() {
             e.preventDefault();
             trackContactFormSubmit();
             handleSend();
-          }}>
-            <input value={name} onChange={(e) => setName(e.target.value)} className="w-full bg-transparent border border-[rgba(255,255,255,0.03)] px-3 py-2 rounded-md" placeholder="Nombre" required/>
-            <input value={email} onChange={(e) => setEmail(e.target.value)} className="w-full bg-transparent border border-[rgba(255,255,255,0.03)] px-3 py-2 rounded-md" placeholder="Correo"required />
-            <textarea value={message} onChange={(e) => setMessage(e.target.value)} className="w-full bg-transparent border border-[rgba(255,255,255,0.03)] px-3 py-2 rounded-md" rows={5} placeholder="Mensaje" required />
-            <button type="submit" className="inline-flex items-center gap-2 px-4 py-2 bg-sky-600 rounded-md">Enviar</button>
+          }} >
+            <input value={name} onChange={(e) => setName(e.target.value)} className="w-full bg-transparent  border-[rgba(255,255,255,0.03)] px-3 py-3 rounded-md shadow-sm shadow-blue-500/10"  placeholder={web.name} required/>
+            <input value={email} onChange={(e) => setEmail(e.target.value)} className="w-full bg-transparent border border-[rgba(255,255,255,0.03)] px-3 py-3 rounded-md shadow-sm shadow-blue-500/10" placeholder={web.email} required />
+            <textarea value={message} onChange={(e) => setMessage(e.target.value)} className="w-full bg-transparent border border-[rgba(255,255,255,0.03)] px-3 py-4 rounded-md shadow-sm shadow-blue-500/10" rows={5} placeholder={web.message} required />
+            <button type="submit" className="inline-flex items-center gap-2 px-4 py-2 bg-sky-600 rounded-md">{web.send}</button>
           </form>
           
 

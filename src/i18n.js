@@ -7,16 +7,20 @@ import generalEN from "./data/resume.json";
 import generalES from "./data/cv.json";
 import projectsEN from "./data/proyectoEN.json";
 import projectsES from "./data/proyectoES.json";
+import webEN from "./data/webEN.json";
+import webES from "./data/webES.json";
 i18n
   .use(initReactI18next) // conecta i18next con React
   .init({
    resources: {
       en: {
         general: generalEN,
+        web: webEN,
         projects: projectsEN,
       },
       es: {
         general: generalES,
+        web: webES,
         projects: projectsES,
       },
     },
