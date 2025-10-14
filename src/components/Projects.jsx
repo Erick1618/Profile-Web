@@ -1,7 +1,15 @@
 import React from 'react'
-import { PROJECTS } from '../data/projects'
+import { Link } from "react-router-dom"
+import { PROJECTS } from "../data/projects"
+import { trackProjectClick } from "../analytics/gaEvents";
+import { useNavigate } from 'react-router-dom'
+
+
+  
+
 
 export default function Projects() {
+  
   return (
     <section id="projects" className="mt-12">
       <h2 className="text-2xl font-bold mb-6">Proyectos Destacados</h2>
@@ -25,7 +33,14 @@ export default function Projects() {
                 </div>
               </div>
               <div className="ml-4 flex flex-col gap-2">
-                <a href={p.link} className="text-sm inline-flex items-center gap-2 px-3 py-2 bg-sky-600 rounded-md">Ver</a>
+               <Link
+                  to="/detallesproyecto"
+                  state={p} // 👈 así se pasa el JSON directo
+                  className="text-sm inline-flex items-center gap-2 px-3 py-2 bg-sky-600 rounded-md hover:bg-sky-700"
+                  onClick={() => trackProjectClick(p.name)}
+                >
+                  Ver
+                </Link>
               </div>
             </div>
           </article>

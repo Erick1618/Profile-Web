@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { trackContactFormSubmit } from "../analytics/gaEvents";
 
 // This uses EmailJS (client-side). Replace SERVICE_ID, TEMPLATE_ID, PUBLIC_KEY with your EmailJS values.
 // See https://www.emailjs.com/docs/sdk/installation/ for setup.
@@ -17,19 +18,16 @@ export default function Contact() {
       const PUBLIC_KEY = 'YOUR_PUBLIC_KEY'
 
       const payload = {
-        service_id: SERVICE_ID,
-        template_id: TEMPLATE_ID,
-        user_id: PUBLIC_KEY,
-        template_params: {
+        
           from_name: name,
           from_email: email,
           message: message
-        }
+        
       }
 
       const res = await fetch('https://olacheadev.com/CV/email.php', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded'},
         body: JSON.stringify(payload)
       })
 
@@ -51,12 +49,17 @@ export default function Contact() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="p-6 rounded-2xl bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.03)]">
-          <form className="space-y-3" onSubmit={(e) => { e.preventDefault(); handleSend(); }}>
+          <form onSubmit={(e) => {
+            e.preventDefault();
+            trackContactFormSubmit();
+            handleSend();
+          }}>
             <input value={name} onChange={(e) => setName(e.target.value)} className="w-full bg-transparent border border-[rgba(255,255,255,0.03)] px-3 py-2 rounded-md" placeholder="Nombre" required/>
             <input value={email} onChange={(e) => setEmail(e.target.value)} className="w-full bg-transparent border border-[rgba(255,255,255,0.03)] px-3 py-2 rounded-md" placeholder="Correo"required />
             <textarea value={message} onChange={(e) => setMessage(e.target.value)} className="w-full bg-transparent border border-[rgba(255,255,255,0.03)] px-3 py-2 rounded-md" rows={5} placeholder="Mensaje" required />
             <button type="submit" className="inline-flex items-center gap-2 px-4 py-2 bg-sky-600 rounded-md">Enviar</button>
           </form>
+          
 
           <div className="mt-4 text-sm text-gray-300">{status}</div>
         </div>

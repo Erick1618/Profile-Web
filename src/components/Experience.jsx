@@ -1,6 +1,6 @@
 import React from 'react'
 import { EXPERIENCE } from '../data/experience'
-
+import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 
 export function calcularEdad(fechaInicio, fechaFin) {
@@ -76,6 +76,14 @@ export function calcularEdad(fechaInicio, fechaFin) {
 
 
 export default function Experience() {
+  const { t } = useTranslation();
+
+  // Opción 1: si quieres mapear el array completo:
+  const projects = t("projects", { returnObjects: true });
+  // 2️⃣ Accedes a arrays dentro del objeto:
+  const list = t("projects.list", { returnObjects: true });
+
+
   const res = [];
   EXPERIENCE.map((item1, id) => (res[id] = calcularEdad(item1.fechaInicio, item1.fechaTermino)));
 

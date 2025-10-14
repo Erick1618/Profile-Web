@@ -1,5 +1,6 @@
 export const PROJECTS = [
   {
+    id:1,
     title: 'Softtek - Citigroup',
     rol:'Software QA Tester Engineer (funcional)',
     sector:'Bancario',
