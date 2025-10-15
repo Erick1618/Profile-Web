@@ -80,7 +80,7 @@ const location = useLocation();
           >{/* ← sección de GitHub <div className="mt-4 mb-8 flex flex-wrap gap-2">
               <img
               src={profilePic}
-              className="w-44 h-44 object-cover rounded-full"
+              className="w- h-44 object-cover rounded-full"
                 whileHover={{ scale: 1.25 }}
                 transition={{ type: "spring", stiffness: 200 }}
             />
