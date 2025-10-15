@@ -16,7 +16,9 @@
         "experience":"Experience",
         "project": "Projects",
         "contact": "contact",
-        "download": "Download Resume"
+        "download": "Download Resume",
+        "details":"Project Details",
+        "btnstart":"Home"
       },
     "sections": 
       {

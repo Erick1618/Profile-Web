@@ -1,6 +1,6 @@
 export const PROJECTS = [
   {
-    id:1,
+    id:2,
     title: 'Softtek - Citigroup',
     rol:'Software QA Tester Engineer (funcional)',
     sector:'Bancario',
@@ -12,6 +12,7 @@ export const PROJECTS = [
     link: 'https://olacheadev.com/CV/CitigroupEN.pdf'
   },
   {
+    id:1,
     title: 'Softtek - Crowley: Logistics, Government, Marine and Energy Solutions.',
     rol:'Software QA Tester Engineer (funcional)',
     sector:'Logistico y de trasnportacion',
@@ -23,6 +24,7 @@ export const PROJECTS = [
     link: 'https://olacheadev.com/CV/CrowleyEN.pdf'
   },
   {
+    id:3,
     title:'Independiente - Invitaciones digitales',
     rol:'Desarrollador y Qa Tester',
     sector:'Aplicaciones Web',
@@ -34,6 +36,7 @@ export const PROJECTS = [
     link: 'https://olacheadev.com/CV/EventosEN.pdf'
   },
   {
+    id:4,
     title: 'Independiente - Ludiderecho',
     rol:'Desarrollador de Videojuegos',
     sector:'Videojuegos 2D',
@@ -45,6 +48,7 @@ export const PROJECTS = [
     link: 'https://olacheadev.com/CV/VideojuegoEN.pdf'
   },
   {
+    id:5,
     title: 'Practicas Profecionales',
     rol:'Estudiante como Ingeniero en Software',
     sector:'Ventas y Comida',

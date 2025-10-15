@@ -38,7 +38,7 @@ export default function Projects() {
               <div className="ml-4 flex flex-col gap-2">
                <Link
                   to="/detallesproyecto"
-                  state={p} // 👈 así se pasa el JSON directo
+                  state={{ id: p.id }} // 👈 así se pasa el JSON directo
                   className="text-sm inline-flex items-center gap-2 px-3 py-2 bg-sky-600 rounded-md hover:bg-sky-700"
                   onClick={() => trackProjectClick(p.name)}
                 >

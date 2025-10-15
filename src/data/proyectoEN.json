@@ -1,20 +1,19 @@
 {
   "projects": [
-    {
+    {"id":1,
       "company": "Softtek – Crowley: Logistics, Government, Marine and Energy Solutions",
       "city": "Ensenada, Baja California, Mexico",
       "role": "Software QA Tester Engineer (Functional)",
-      "date": {
-        "from": "Aug 2022",
-        "to": "Jun 2024"
-      },
-      "dateB":"2024-02-01",
-      "dateEnd":"2025-10-10",
+      "date": "August 2022 - June 2024",
+      "dateB":"2022-08-10",
+      "dateEnd":"2024-06-08",
+      "tipo":"Testing Types",
+      "tipoexp":"Testing Expertise",
       "description": {
-        "testing_lifecycle": "Software Testing Life Cycle: QA Analysis, Test planning, Test design, Test Case Peer Review, Test execution, Test Environment Setup, Defect Management",
-        "qa_management": "QAComplete and Salesforce"
+        "testing_lifecycle": "Software Testing Life Cycle: QA Analysis, Test planning, Test design, Test Case Peer Review, Test execution, Test Environment Setup, Defect Management. QA Management: QAComplete and Salesforce.",
+        "methodology": "Weekly Standup Meeting."
       },
-      "testing_types": [
+      "types": [
         "Functional Testing",
         "API Testing",
         "Regression Testing",
@@ -23,7 +22,7 @@
         "Manual Testing",
         "Smoke Testing"
       ],
-      "testing_expertise": [
+      "expertise": [
         "Interacting directly with the customer to provide testing status and estimations",
         "API testing using Postman and Mulesoft (to view logs and response of requests)",
         "Analysis and design of test cases and scenarios",
@@ -34,6 +33,7 @@
         "Applying process improvement and best practices"
       ],
       "functional_experience": "Software QA Tester Engineer",
+     "funcional":{"experience":"Functional Experience","tools":"Tools","meto":"Methodology","stlc":"STLC"},
       "tools": [
         "QAComplete",
         "SQL",
@@ -44,28 +44,27 @@
         "Cypress"
       ]
     },
-    {
+    {"id":2,
       "company": "Softtek – Citigroup",
       "city": "Ensenada, Baja California, Mexico",
       "role": "Software QA Tester Engineer (Functional and Automation)",
-      "date": {
-        "from": "Jun 2024",
-        "to": "Apr 2025"
-      },
-      "dateB":"2024-02-01",
-      "dateEnd":"2025-10-10",
+      "date": "June 2024 - April 2025",
+      "dateB":"2024-06-10",
+      "dateEnd":"2025-04-08",
+      "tipo":"Testing Types",
+      "tipoexp":"Testing Expertise",
       "description": {
-        "testing_lifecycle": "Software Testing Life Cycle: QA Analysis, Test planning, Test design, Test Case Peer Review, Test execution, Test Environment Setup, Defect Management",
-        "qa_management": "JIRA, ALM and Confluence"
+        "testing_lifecycle": "Software Testing Life Cycle: QA Analysis, Test planning, Test design, Test Case Peer Review, Test execution, Test Environment Setup, Defect Management. QA Management: JIRA, ALM and Confluence.",
+        "methodology": "Reuniones Diarias"
       },
-      "testing_types": [
+      "types": [
         "Functional Testing",
         "Integration Testing",
         "Manual Testing",
         "API Testing",
         "Automation Testing (API REST)"
       ],
-      "testing_expertise": [
+      "expertise": [
         "Interacting directly with the customer to provide testing status and estimations",
         "API testing using Postman and SOAP UI",
         "Asynchronous microservices testing with SpringBoot and RedHat",
@@ -78,6 +77,7 @@
         "Applying process improvement and best practices"
       ],
       "functional_experience": "Software QA Tester Engineer (Functional and Automation)",
+      "funcional":{"experience":"Functional Experience","tools":"Tools","meto":"Methodology","stlc":"STLC"},
       "tools": [
         "Cucumber",
         "Java",
@@ -90,28 +90,27 @@
         "SpringBoot"
       ]
     },
-    {
+    {"id":3,
       "company": "Freelancer – Digital Invitations for Events",
       "city": "Ensenada, Baja California, Mexico",
       "role": "Software Development Web and QA Engineer",
-      "date": {
-        "from": "Feb 2024",
-        "to": "Oct 2025"
-      },
+      "date": "February 2024 – October 2025",
       "dateB":"2024-02-01",
       "dateEnd":"2025-10-10",
+      "tipo":"Testing and Devlopment Types",
+      "tipoexp":"Testing and Devlopment Expertise",
       "description": {
         "development_lifecycle": "Software Development Life Cycle: Requirement Analysis, Developing, Unit Testing, Bugs Solving, Software maintenance",
         "methodology": "Waterfall: Requirements, System Design, Implementation, Testing, Deployment"
       },
-      "development_types": [
+      "types": [
         "Responsive Web Application Development",
         "Functional Testing",
         "Manual Testing",
         "API Testing",
         "Automation Testing"
       ],
-      "development_expertise": [
+      "expertise": [
         "Analysis and design of user stories",
         "Web development using JQuery, PHP, HTML and Bootstrap",
         "Database development using MySQL",
@@ -120,6 +119,7 @@
         "Version control using Github"
       ],
       "functional_experience": "Software Development Web and QA Engineer",
+      "funcional":{"experience":"Functional Experience","tools":"Tools","meto":"Methodology","stlc":"SDLC"},
       "tools": [
         "Bootstrap",
         "Postman",
@@ -136,26 +136,26 @@
         "Visual Studio Code"
       ]
     },
-    {
+    {"id":4,
       "company": "Freelancer – Universidad Autónoma de Baja California (Video Game)",
       "city": "Ensenada, Baja California, Mexico",
       "role": "Software Development Engineer",
-      "date": {
-        "from": "Dec 2021",
-        "to": "Aug 2022"
-      },
-      "dateB":"2024-02-01",
-      "dateEnd":"2025-10-10",
+      "date": "December 2021 – August 2022",
+      "dateB":"2021-12-01",
+      "dateEnd":"2022-08-10",
+      "tipo":"Development Types",
+      "tipoexp":"Development Expertise",
       "description": {
-        "development_lifecycle": "Software Development Life Cycle: Requirement Analysis, Developing, Unit Testing, Bugs Solving, Software maintenance"
+        "development_lifecycle": "Software Development Life Cycle: Requirement Analysis, Developing, Unit Testing, Bugs Solving, Software maintenance",
+        "methodology": "Waterfall: Requirements, System Design, Implementation, Testing, Deployment"
       },
-      "development_types": [
+      "types": [
         "Game Development",
         "Desktop Development",
         "Mobile Development (Android and iOS)",
         "Object-Oriented Programming"
       ],
-      "development_expertise": [
+      "expertise": [
         "Analysis and design of requirements",
         "Game development using C#",
         "Desktop development using C#",
@@ -165,27 +165,27 @@
         "Version control using Github"
       ],
       "functional_experience": "Software Development Engineer",
+      "funcional":{"experience":"Functional Experience","tools":"Tools","meto":"Methodology","stlc":"SDLC"},
       "tools": ["Unity", "Github", "C#"]
     },
-    {
+    {"id":5,
       "company": "Internship – University Cafeteria (E-commerce)",
       "city": "Ensenada, Baja California, Mexico",
       "role": "Software Engineer",
-      "date": {
-        "from": "Aug 2021",
-        "to": "Dec 2021"
-      },
-      "dateB":"2024-02-01",
-      "dateEnd":"2025-10-10",
+      "date": "August 2021 – December 2021",
+      "dateB":"2021-08-01",
+      "dateEnd":"2021-12-10",
+      "tipo":"Development Types",
+      "tipoexp":"Development Expertise",
       "description": {
         "development_lifecycle": "Software Development Life Cycle: Requirement Analysis, Developing, Unit Testing, Bugs Solving, Software maintenance",
-        "agile_meetings": "Sprint Planning, Biweekly Standups, Sprint Review and Retrospective"
+        "agile_meetings": "Sprint Planning, weekly Standups, Sprint Review and Retrospective"
       },
-      "development_types": [
+      "types": [
         "Web Application Development",
         "Mobile Development (Android and iOS)"
       ],
-      "development_expertise": [
+      "expertise": [
         "Analysis and design of requirements and user stories",
         "Web development using JQuery, PHP, HTML and Bootstrap",
         "Mobile development using Java and Swift",
@@ -198,7 +198,21 @@
         "Risk identification and mitigation",
         "Version control using Github"
       ],
-      "functional_experience": "Software Engineer (Java, JQuery, JavaScript, HTML, PHP, SQL)"
+      "functional_experience": "Software Engineer",
+      "funcional":{"experience":"Functional Experience","tools":"Tools","meto":"Methodology","stlc":"SDLC"},
+      "tools": [
+        "Java",
+        "JQuery",
+        "JavaScript",
+        "Postman",
+        "PHP",
+        "JQuery",
+        "Trello",
+        "MySQL",
+        "HTML",
+        "Visual Studio Code"
+        
+      ]
     }
   ]
 }

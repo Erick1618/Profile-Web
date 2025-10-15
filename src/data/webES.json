@@ -16,7 +16,9 @@
         "experience":"Experiencia",
         "project": "Proyectos",
         "contact": "Contacto",
-        "download": "Descargar CV"
+        "download": "Descargar CV",
+        "details":"Detalles del Proyecto",
+        "btnstart":"Volver a Inicio"
       },
     "sections": 
       {

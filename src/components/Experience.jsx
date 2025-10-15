@@ -80,11 +80,11 @@ export default function Experience() {
  const { t } = useTranslation(["web","general"]);
   
  const web  =t("web.sections.experience", { ns: "web",returnObjects: true })|| [];
-console.log(web);
+
   // Opción 1: si quieres mapear el array completo:
   const experiencia  = t("work_experience", { ns: "general", returnObjects: true }) || [];
 
-console.log(experiencia);
+
   const res = [];
   experiencia.map((item1, id) => (res[id] = calcularEdad(item1.dateB, item1.dateEnd,web)));
 

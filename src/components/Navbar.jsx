@@ -127,7 +127,7 @@ export default function Navbar() {
           <li onClick={() => trackNavbarClick("Contacto")}>
             <a href="#contact" className="hover:text-white">{navbar.contact}</a>
           </li>
-          <a href="/archivos/Erick_Olachea_Resume.pdf" className="ml-2 inline-flex items-center gap-2 bg-[#15345a] hover:bg-[#1f4f7f] text-white px-4 py-2 rounded-md"
+          <a href="https://olacheadev.com/CV/archivos/Erick_Olachea_Resume.pdf" className="ml-2 inline-flex items-center gap-2 bg-[#15345a] hover:bg-[#1f4f7f] text-white px-4 py-2 rounded-md"
            download onClick={trackDownloadCV}>
             {navbar.download}
           </a>
