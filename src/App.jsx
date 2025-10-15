@@ -30,7 +30,7 @@ export default function App() {
     <Router>
       <AnalyticsTracker />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/CV" element={<Home />} />
         <Route path="/detallesproyecto" element={<DetallesProyecto />} />
       </Routes>
     </Router>

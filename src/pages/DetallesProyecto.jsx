@@ -77,7 +77,7 @@ const location = useLocation();
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay:  0.2 }}
             
-          ><div className="mt-4 mb-8 flex flex-wrap gap-2">
+          >{/* ← sección de GitHub <div className="mt-4 mb-8 flex flex-wrap gap-2">
               <img
               src={profilePic}
               className="w-44 h-44 object-cover rounded-full"
@@ -90,7 +90,7 @@ const location = useLocation();
                 whileHover={{ scale: 1.25 }}
                 transition={{ type: "spring", stiffness: 200 }}
             />
-          </div>
+          </div>!*/}
             
               <motion.h1
               initial={{ opacity: 0, y: -20 }}

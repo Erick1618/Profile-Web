@@ -17,7 +17,7 @@ export function NavbarDetalles() {
         <div className="text-white font-semibold text-lg">{navbar.details}</div>
          <LanguageSwitcher />
         <button
-          onClick={() => navigate("/")}
+          onClick={() => navigate("/CV")}
           className="flex items-center gap-2 bg-[#15345a] hover:bg-[#1f4f7f] text-white px-4 py-2 rounded-md"
         >
           <ArrowLeft size={18} />
