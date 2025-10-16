@@ -9,6 +9,7 @@ import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import ProjectGit from "../components/ProjectGit";
 import Website from "../components/Website";
+import Education from "../components/Education";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Hero />
         <Experience />
         <Skills />
+        <Education />
         <Projects />
         <ProjectGit />   {/* ← sección de GitHub */}
         <Website />

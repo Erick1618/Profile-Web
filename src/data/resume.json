@@ -16,6 +16,36 @@
       "school": "Centro de Bachillerato Tecnológico, Industrial y de Servicios No. 41",
       "date": "August 2013 - June 2016",
       "degree": "Electronics Technician"
+    },
+    {
+      "school": "Softtek",
+      "date": "Agosto 2022 - Noviembre 2022",
+      "degree": "Functional Testing Academy"
+    },
+    {
+      "school": "Universidad Autónoma de Baja California",
+      "date": "",
+      "degree": "Java Spring"
+    },
+    {
+      "school": "Udemy",
+      "date": "",
+      "degree": "Unity 2D RPG"
+    },
+    {
+      "school": "Coursera | IBM",
+      "date": "",
+      "degree": "Introduction to Cybersecurity Tools & Cyber Attacks"
+    },
+    {
+      "school": "Coursera | IBM",
+      "date": "",
+      "degree": "Cybersecurity Roles, Processes & Operating System Security"
+    },
+    {
+      "school": "Coursera | IBM",
+      "date": "",
+      "degree": "Cybersecurity Compliance Framework & System Administration"
     }
   ],
   "work_experience": [
