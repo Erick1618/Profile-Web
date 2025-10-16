@@ -48,9 +48,9 @@ export default function Experience() {
             >
               <div className="flex flex-col gap-1">
                 <h3 className="text-lg md:text-xl font-semibold text-gray-100">
-                  {item.school}
+                  {item.degree}
                 </h3>
-                <p className="text-blue-400 text-sm md:text-base">{item.degree}</p>
+                <p className="text-blue-400 text-sm md:text-base">{item.school}</p>
                 <p className="text-xs md:text-sm text-gray-400">
                  {item.date}
                 </p>

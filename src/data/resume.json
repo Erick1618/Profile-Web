@@ -12,11 +12,7 @@
       "date": "January 2018 - May 2022",
       "degree": "Computer Engineering (Bachelor's Degree)"
     },
-    {
-      "school": "Centro de Bachillerato Tecnológico, Industrial y de Servicios No. 41",
-      "date": "August 2013 - June 2016",
-      "degree": "Electronics Technician"
-    },
+    
     {
       "school": "Softtek",
       "date": "Agosto 2022 - Noviembre 2022",
@@ -24,12 +20,12 @@
     },
     {
       "school": "Universidad Autónoma de Baja California",
-      "date": "",
+      "date": "Junio 2022 - Agosto 2022",
       "degree": "Java Spring"
     },
     {
       "school": "Udemy",
-      "date": "",
+      "date": "Febreo 2022 - Marzo 2022",
       "degree": "Unity 2D RPG"
     },
     {
@@ -46,6 +42,11 @@
       "school": "Coursera | IBM",
       "date": "",
       "degree": "Cybersecurity Compliance Framework & System Administration"
+    },
+    {
+      "school": "Centro de Bachillerato Tecnológico, Industrial y de Servicios No. 41",
+      "date": "August 2013 - June 2016",
+      "degree": "Electronics Technician"
     }
   ],
   "work_experience": [
