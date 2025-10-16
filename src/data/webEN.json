@@ -44,7 +44,97 @@
           ],
           "soft":["Communication", "Teamwork", "Organización", "Responsibility", "Critical thinking", "Proactivity", "Analytical Thinking", "Adaptability", "Problem Solving", "Continuous Learning"]
         },
-          "projects": "Featured Projects",
+        "projects":{
+          "name":"Featured Projects",
+          "proyectname": [
+            {
+              "id": 2,
+              "title": "Softtek - Citigroup",
+              "rol": "Software QA Tester Engineer",
+              "sector": "Banking",
+              "tipo": "Testing",
+              "desc": "Worked under the Software Testing Life Cycle (STLC) performing automated REST API tests and manual testing for asynchronous microservices, as well as manual UI testing for a banking executive interface.",
+              "responsibilities": [
+                "Experience in the banking sector",
+                "ISTQB Fundamentals",
+                "Functional testing",
+                "REST API and E2E automation"
+              ],
+              "tech": ["Cucumber", "Postman", "Oracle SQL Developer", "IntelliJ IDEA", "RedHat", "JIRA", "ALM", "SoapUI"],
+              "btn": "view"
+            },
+            {
+              "id": 1,
+              "title": "Softtek - Crowley",
+              "rol": "Software QA Tester Engineer",
+              "sector": "Logistics and Transportation",
+              "tipo": "Testing",
+              "desc": "Worked under the Software Testing Life Cycle (STLC) performing manual testing of logistics and transportation applications.",
+              "responsibilities": [
+                "Experience in the logistics and transportation sector",
+                "ISTQB Fundamentals",
+                "Functional testing",
+                "Automation"
+              ],
+              "tech": ["Cypress", "Postman", "MuleSoft", "SalesForce", "QAComplete", "Excel"],
+              "btn": "view"
+            },
+            {
+              "id": 3,
+              "title": "Freelancer",
+              "rol": "Developer and QA Tester",
+              "sector": "Web Applications",
+              "tipo": "Testing and Development",
+              "desc": "Developed digital wedding invitations, including an admin panel to manage guests and improve event control, and a guest view showing a personalized invitation with photos and event details.",
+              "responsibilities": [
+                "Functional testing",
+                "Automated E2E testing",
+                "Responsive web application development",
+                "Manual testing",
+                "API testing",
+                "Database management"
+              ],
+              "tech": ["Cypress", "JMeter", "JavaScript", "", "PHP", "JQuery", "Ajax", "MySQL", "HTML", "FTP", "Visual Studio Code"],
+              "btn": "view"
+            },
+            {
+              "id": 4,
+              "title": "Freelancer",
+              "rol": "Video Game Developer",
+              "sector": "2D Video Games",
+              "tipo": "Development",
+              "desc": "Developed a 2D video game for the Autonomous University of Baja California, Ensenada Campus, designed as an educational tool to teach children about their rights and responsibilities.",
+              "responsibilities": [
+                "Web application development",
+                "Mobile development",
+                "Video game development",
+                "Databases",
+                "Object-oriented programming"
+              ],
+              "tech": ["Unity", "C#", "Visual Studio"],
+              "btn": "view"
+            },
+            {
+              "id": 5,
+              "title": "Professional Internship",
+              "rol": "Software Engineering Student",
+              "sector": "Sales and Food Service",
+              "tipo": "Development",
+              "desc": "Worked on the development of a web and mobile application for the cafeteria of the Autonomous University of Baja California, Ensenada Campus, to optimize order management and allow students to place orders through the app.",
+              "responsibilities": [
+                "Web application development",
+                "Mobile development",
+                "Databases",
+                "Object-oriented programming"
+              ],
+              "tech": ["Trello", "Postman", "JMeter", "PHP", "HTML", "Java", "Android Studio", "MySQL", "JQuery", "Visual Studio Code"],
+              "btn": "view"
+            }
+          ]
+
+              
+
+          },
           "github": "GitHub Projects",
           "pages": {
             "title":"My Websites",
