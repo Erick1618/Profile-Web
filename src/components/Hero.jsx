@@ -26,7 +26,7 @@ export default function Hero() {
       </div>
 
       <div className="md:col-span-2">
-        <motion.h1 initial={{ opacity: 1, y: 8 }} animate={{ opacity: 2, y: 0 }} transition={{ duration: 0.8 }} className="text-4xl md:text-5xl font-extrabold leading-tight">{web.presentation}</motion.h1>
+        
         <motion.h1 initial={{ opacity: 1, y: 8 }} animate={{ opacity: 2, y: 0 }} transition={{ duration: 0.8 }} className="mt-3 text-4xl md:text-5xl font-extrabold leading-tight"> <span className="text-white">{web.name}</span> </motion.h1>
         <p className="mt-3 text-xl text-sky-300">{web.rol}</p>
 

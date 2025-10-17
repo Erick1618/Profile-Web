@@ -1,190 +1,184 @@
 {
-  "web":{
-    "presentation": "¡Hola!, Soy 👋",
+  "web": {
+    "presentation": "",
     "name": "Erick Augusto Olachea Ortega",
     "contact": {
       "email": "erick.olachea16@gmail.com",
       "linkedin": "https://www.linkedin.com/in/erick-olachea/",
       "mobile": "+52 646 226 2706"
     },
-    "rol":"QA Software Tester Engineer · Desarrollador Web",
-    "description":"Ingeniero de QA con experiencia en analisis, diseño y ejecucion de pruebas funcionales: como pruebas de regresion, de integrasion, de API , Humo, manuales y automatización de pruebas de API REST y E2E. Seguimiento de requerimientos y gestión de defectos, Con experiencia en metodologías ágiles y control de versiones, trabajando bajo STLC, SDLC y con Fundamentos ISTQ. Integración continua y mejora de procesos de calidad, me interesa resolver problemas complejos mediante pruebas sólidas y reproducibles. Tambien, realizo desarrollo de aplicaciones web y videojuegos.",
-    "btncontact":"Contactar",
-    "btnprojects":"Ver proyectos",
-    "navbar": 
-      {
-        "experience":"Experiencia",
-        "project": "Proyectos",
-        "contact": "Contacto",
-        "download": "Descargar CV",
-        "details":"Detalles del Proyecto",
-        "btnstart":"Volver a Inicio"
+    "rol": "QA Software Tester Engineer · Desarrollador Web",
+    "description": "¡Hola! 👋 Soy Erick Augusto Olachea Ortega, Ingeniero de QA con experiencia en análisis, diseño y ejecución de pruebas funcionales como regresión, integración, API, humo, manuales y automatización de pruebas en API REST y E2E. Cuento con experiencia en el seguimiento de requerimientos, gestión de defectos, metodologías ágiles y control de versiones, trabajando bajo los modelos STLC, SDLC y con fundamentos ISTQB. Participo en procesos de integración continua y mejora de calidad, con interés en resolver problemas complejos mediante pruebas sólidas y reproducibles. Además, desarrollo aplicaciones web y videojuegos.",
+    "btncontact": "Contactar",
+    "btnprojects": "Ver Proyectos",
+    "navbar": {
+      "experience": "Experiencia",
+      "project": "Proyectos",
+      "contact": "Contacto",
+      "download": "Descargar CV",
+      "details": "Detalles del Proyecto",
+      "btnstart": "Volver al Inicio"
+    },
+    "sections": {
+      "experience": {
+        "title": "Experiencia Profesional",
+        "year": "año",
+        "years": "años",
+        "month": "mes",
+        "months": "meses"
       },
-    "sections": 
-      {
-        "experience": {
-          "title":"Experiencia Profesional",
-          "year":"año",
-          "years":"años",
-          "month":"mes",
-          "months":"meses"
-        },
-        "skills": {
-          "title":"Habilidades",
-          "titlehard":"Habilidades Duras",
-          "titlesoft":"Habilidades Blandas",
-          "hard":[
-            { "name": "Software Testing y QA: Pruebas funcionales, pruebas API, automatización REST, diseño de casos de prueba, análisis de datos de prueba, gestión de defectos y mejora de procesos QA.", "level": 65 },
-            { "name": "Herramientas y Frameworks: Postman, SOAP UI, JIRA, ALM, Confluence, Cypress, Cucumber, Mulesoft, QAComplete.", "level": 75 },
-            { "name": "Lenguajes de Programación: C, C#, Java, JavaScript, PHP, SQL, HTML, CSS, jQuery, Python (básico).", "level": 75 },
-            { "name": "Bases de Datos: MySQL, Oracle SQL Developer, PostgreSQL, Microsoft SQL Server.", "level": 75 },
-            { "name": "Desarrollo de Videojuegos: Unity 2D, programación en C#, integración de recursos, Programación Orientada a Objetos.", "level": 75 },
-            { "name": "Control de Versiones e IDEs: GitHub, Visual Studio, IntelliJ, Android Studio, VS Code", "level": 75 },
-            { "name": "Desarrollo Web y Móvil: Diseño responsivo, HTML/CSS/Bootstrap, PHP, JavaScript, AJAX, desarrollo Android/iOS.", "level": 75 }
-          ],
-          "soft":["Comunicación", "Trabajo en Equipo", "Organización y Responsabilidad", "Pensamiento crítico", "Proactividad", "Pensamiento Analítico", "Adaptabilidad", "Adaptabilidad", "Resolución de Problemas", "Aprendizaje Continuo"]
-        },
-        "projects": {
-          "name":"Proyectos Destacados",
-          "proyectname":[{
-                "id":2,
-                "title": "Softtek - Citigroup",
-                "rol":"Software QA Tester Engineer",
-                "sector":"Bancario",
-                "tipo":"Pruebas",
-                "desc": "Se Trabajo bajo Software Testing Life Cycle (STLC) en pruebas automatizadas en API REST y pruebas manuales para microservicios asincronos, tambien pruebas manuelas en el UI de un ejecutivo de banco",
-                "responsibilities": [
-                    "Experiencia en el sector bancario",
-                    "Fundamentos ISTQB",
-                    "Pruebas funcionales",
-                    "Automatización de REST API y E2E"
-                  ],
-                "tech": ["Cucumber", "Postman", "Oracle SQL developer", "intelliJ IDEA", "RedHat", "JIRA", "ALM", "SoupUI"],
-                "btn":"ver"
-              },
-              {
-                "id":1,
-                "title": "Softtek - Crowley",
-                "rol":"Software QA Tester Engineer",
-                "sector":"Logistico y de trasnportacion",
-                "tipo":"Pruebas",
-                "desc": "Se Trabajo bajo Software Testing Life Cycle (STLC) en pruebas manuales de aplicaciones de logistica y transporte",
-                "responsibilities": [
-                    "Experiencia en el sector logístico y de transportación",
-                    "Fundamentos ISTQB",
-                    "Pruebas funcionales",
-                    "Automatización"
-                  ],
-                "tech": ["Cypress", "Postman", "MuleSoft", "SalesForce", "QAComplete", "Excel"],
-                "btn":"ver"
-              },
-              {
-                "id":3,
-                "title":"Independiente",
-                "rol":"Desarrollador y Qa Tester",
-                "sector":"Aplicaciones Web",
-                "tipo":"Pruebas y Desarrollo",
-                "desc": "Desarrolle invitaciones digitales para bodas, con un lado admin para gestionar invitados y tener un mejor control del evento, el otro lado del invitado muestra una invitacion personalizada con fotos e imagenes de los interesados con la informacion correspondiente.",
-                "responsibilities": [
-                    "Pruebas funcionales",
-                    "Pruebas automatizadas E2E",
-                    "Desarrollo de aplicaciones web responsivas",
-                    "Pruebas manuales",
-                    "Pruebas de API",
-                    "Gestión de bases de datos"
-                  ],
-                  "tech": ["Cypress", "JMeter","JavaScript", "", "PHP", "JQuery", "Ajax", "MySQL" , "HTML", "FTP","Visual Studio Code"],
-                "btn":"ver"
-              },
-              {
-                "id":4,
-                "title": "Independiente",
-                "rol":"Desarrollador de Videojuegos",
-                "sector":"Videojuegos 2D",
-                "tipo":"Desarrollo",
-                "desc": "Se desarrollo un video juego en 2D para la Universidad Autonoma De Baja California Campus Ensenada, en dode el video juego es ludico, enseñando a los niños sus derechos y obligaciones ",
-                "responsibilities": [
-                    "Desarrollo de aplicaciones web",
-                    "Desarrollo móvil",
-                    "Desarrollo de videojuegos",
-                    "Bases de datos",
-                    "Programación orientada a objetos"
-                  ],
-                "tech": ["Unity","C#","Visual Studio"],
-                "btn":"ver"
-              },
-              {
-                "id":5,
-                "title": "Practicas Profecionales",
-                "rol":"Estudiante como Ingeniero en Software",
-                "sector":"Ventas y Comida",
-                "tipo":"Desarrollo",
-                "desc": "Se Trabajo en el desarrollo de una aplicacion web y movil para la cafeteria de la Universidad Autonoma De Baja California Campus Ensenada, esto para optimizar la comanda de pedidos y asi los estudiantes puedan ordenar por la app. ",
-                "responsibilities": [
-                    "Desarrollo de aplicaciones web",
-                    "Desarrollo móvil",
-                    "Bases de datos",
-                    "Programación orientada a objetos"
-                  ],
-                
-                "tech": ["Trello", "Postman","JMeter", "PHP", "HTML", "Java", "AndroidStudio", "MySQL" , "JQuery", "Visual Studio Code"],
-                "btn":"ver"
-              }
-            ]
-              
-
+      "skills": {
+        "title": "Habilidades",
+        "titlehard": "Habilidades Técnicas",
+        "titlesoft": "Habilidades Blandas",
+        "hard": [
+          { "name": "Software Testing y QA: Pruebas funcionales, pruebas API, automatización REST, diseño de casos de prueba, análisis de datos de prueba, gestión de defectos y mejora de procesos QA.", "level": 65 },
+          { "name": "Herramientas y Frameworks: Postman, SOAP UI, JIRA, ALM, Confluence, Cypress, Cucumber, Mulesoft, QAComplete.", "level": 75 },
+          { "name": "Lenguajes de Programación: C, C#, Java, JavaScript, PHP, SQL, HTML, CSS, jQuery, Python (básico).", "level": 75 },
+          { "name": "Bases de Datos: MySQL, Oracle SQL Developer, PostgreSQL, Microsoft SQL Server.", "level": 75 },
+          { "name": "Desarrollo de Videojuegos: Unity 2D, programación en C#, integración de recursos, programación orientada a objetos.", "level": 75 },
+          { "name": "Control de Versiones e IDEs: GitHub, Visual Studio, IntelliJ, Android Studio, VS Code.", "level": 75 },
+          { "name": "Desarrollo Web y Móvil: Diseño responsivo, HTML/CSS/Bootstrap, PHP, JavaScript, AJAX, desarrollo Android/iOS.", "level": 75 }
+        ],
+        "soft": ["Comunicación", "Trabajo en equipo", "Organización", "Responsabilidad", "Pensamiento crítico", "Proactividad", "Pensamiento analítico", "Adaptabilidad", "Resolución de problemas", "Aprendizaje continuo"]
+      },
+      "projects": {
+        "name": "Proyectos Destacados",
+        "proyectname": [
+          {
+            "id": 2,
+            "title": "Softtek - Citigroup",
+            "rol": "Software QA Tester Engineer",
+            "sector": "Bancario",
+            "tipo": "Pruebas",
+            "desc": "Se trabajó bajo el Software Testing Life Cycle (STLC) en pruebas automatizadas de API REST y pruebas manuales para microservicios asíncronos, además de pruebas manuales de la interfaz de usuario de un sistema ejecutivo bancario.",
+            "responsibilities": [
+              "Experiencia en el sector bancario",
+              "Fundamentos ISTQB",
+              "Pruebas funcionales",
+              "Automatización de REST API y E2E"
+            ],
+            "tech": ["Cucumber", "Postman", "Oracle SQL Developer", "IntelliJ IDEA", "RedHat", "JIRA", "ALM", "SoapUI"],
+            "btn": "ver"
           },
-        "github": "Proyectos de GitHub",
-        "pages": {
-            "title":"Mis Sitios Web",
-            "sites":[
-              {
-              "title":"Invitacion Boda",
-              "url": "https://olacheadev.com/VaronicayMarco/",
-              "description":"Invitacion personalizada e interactiva para una boda.(Probar: invitado boda)"
-              },
-              {
-              "title":"Administracion de Invitaciones",
-              "url": "https://olacheadev.com/admin/",
-              "description":"Panel de control intuitivo para gestionar las invitaciones.(Probar: user, password)"
-              },
-              {
-              "title":"Delegacion 74",
-               "url":"https://di74.olacheadev.com/",
-              "description":"Pagina de la Delegacion 74 de los maestros de la Sección 37 del SNTE."
-              }
-            ]
-        },
-        "recomendation":{
-            "title":"Cartas y Recomendaciones",
-            "Letters":[{ 
-                "path": "https://olacheadev.com/CV/archivos/Carta_de_recomendacion_softtek.pdf",
-                "author": "Softtek",
-                "role": "Administradora de recursos humanos"
-              },
-              { 
-                "path": "https://olacheadev.com/CV/archivos/Constancia_BFS.pdf", 
-                "author": "BFS INGENIERIA APLICADA en Softtek", 
-                "role": "Administradora de recursos humanos" 
-              },
-              { 
-                "path": "https://olacheadev.com/CV/archivos/Recomendacion_prof.pdf", 
-                "author": "José Manuel Valencia Moreno", 
-                "role": "Maestro Ingenieria en Software "
-              }
-
-            ]
-          
-        },
-        "contact":{
-            "title":"Contacto",
-            "name":"Nombre",
-            "email":"Correo",
-            "message":"Mensaje",
-            "send":"Enviar"
-          
-        },
-        "education":"Educacion y Desarrollo Profecional" 
-      }
+          {
+            "id": 1,
+            "title": "Softtek - Crowley",
+            "rol": "Software QA Tester Engineer",
+            "sector": "Logística y Transporte",
+            "tipo": "Pruebas",
+            "desc": "Se trabajó bajo el Software Testing Life Cycle (STLC) realizando pruebas manuales en aplicaciones del sector logístico y de transporte.",
+            "responsibilities": [
+              "Experiencia en el sector logístico y de transporte",
+              "Fundamentos ISTQB",
+              "Pruebas funcionales",
+              "Automatización"
+            ],
+            "tech": ["Cypress", "Postman", "MuleSoft", "Salesforce", "QAComplete", "Excel"],
+            "btn": "ver"
+          },
+          {
+            "id": 3,
+            "title": "Independiente",
+            "rol": "Desarrollador y QA Tester",
+            "sector": "Aplicaciones Web",
+            "tipo": "Pruebas y Desarrollo",
+            "desc": "Desarrollé invitaciones digitales para bodas, con un panel administrativo para gestionar invitados y tener un mejor control del evento. El lado del invitado muestra una invitación personalizada con fotos e información del evento.",
+            "responsibilities": [
+              "Pruebas funcionales",
+              "Pruebas automatizadas E2E",
+              "Desarrollo de aplicaciones web responsivas",
+              "Pruebas manuales",
+              "Pruebas de API",
+              "Gestión de bases de datos"
+            ],
+            "tech": ["Cypress", "JMeter", "JavaScript", "PHP", "JQuery", "Ajax", "MySQL", "HTML", "FTP", "Visual Studio Code"],
+            "btn": "ver"
+          },
+          {
+            "id": 4,
+            "title": "Independiente",
+            "rol": "Desarrollador de Videojuegos",
+            "sector": "Videojuegos 2D",
+            "tipo": "Desarrollo",
+            "desc": "Se desarrolló un videojuego 2D para la Universidad Autónoma de Baja California, Campus Ensenada. El juego tiene un enfoque lúdico y educativo, enseñando a los niños sus derechos y obligaciones.",
+            "responsibilities": [
+              "Desarrollo de aplicaciones web",
+              "Desarrollo móvil",
+              "Desarrollo de videojuegos",
+              "Bases de datos",
+              "Programación orientada a objetos"
+            ],
+            "tech": ["Unity", "C#", "Visual Studio"],
+            "btn": "ver"
+          },
+          {
+            "id": 5,
+            "title": "Prácticas Profesionales",
+            "rol": "Estudiante de Ingeniería en Software",
+            "sector": "Ventas y Servicios de Alimentos",
+            "tipo": "Desarrollo",
+            "desc": "Se trabajó en el desarrollo de una aplicación web y móvil para la cafetería de la Universidad Autónoma de Baja California, Campus Ensenada, con el objetivo de optimizar la gestión de pedidos y permitir que los estudiantes realicen órdenes desde la app.",
+            "responsibilities": [
+              "Desarrollo de aplicaciones web",
+              "Desarrollo móvil",
+              "Bases de datos",
+              "Programación orientada a objetos"
+            ],
+            "tech": ["Trello", "Postman", "JMeter", "PHP", "HTML", "Java", "Android Studio", "MySQL", "JQuery", "Visual Studio Code"],
+            "btn": "ver"
+          }
+        ]
+      },
+      "github": "Proyectos de GitHub",
+      "pages": {
+        "title": "Mis Sitios Web",
+        "sites": [
+          {
+            "title": "Invitación Boda",
+            "url": "https://olacheadev.com/VaronicayMarco/",
+            "description": "Invitación personalizada e interactiva para una boda. (Prueba: invitado boda)"
+          },
+          {
+            "title": "Administración de Invitaciones",
+            "url": "https://olacheadev.com/admin/",
+            "description": "Panel de control intuitivo para gestionar invitaciones. (Prueba: user, password)"
+          },
+          {
+            "title": "Delegación 74",
+            "url": "https://di74.olacheadev.com/",
+            "description": "Página de la Delegación 74 de los maestros de la Sección 37 del SNTE."
+          }
+        ]
+      },
+      "recomendation": {
+        "title": "Cartas y Recomendaciones",
+        "Letters": [
+          {
+            "path": "https://olacheadev.com/CV/archivos/Carta_de_recomendacion_softtek.pdf",
+            "author": "Softtek",
+            "role": "Administradora de Recursos Humanos"
+          },
+          {
+            "path": "https://olacheadev.com/CV/archivos/Constancia_BFS.pdf",
+            "author": "BFS Ingeniería Aplicada en Softtek",
+            "role": "Administradora de Recursos Humanos"
+          },
+          {
+            "path": "https://olacheadev.com/CV/archivos/Recomendacion_prof.pdf",
+            "author": "José Manuel Valencia Moreno",
+            "role": "Maestro en Ingeniería de Software"
+          }
+        ]
+      },
+      "contact": {
+        "title": "Contacto",
+        "name": "Nombre",
+        "email": "Correo",
+        "message": "Mensaje",
+        "send": "Enviar"
+      },
+      "education": "Educación y Desarrollo Profesional"
     }
+  }
 }
