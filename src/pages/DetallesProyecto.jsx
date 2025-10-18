@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import { motion } from "framer-motion";
 import { NavbarDetalles } from "../components/NavbarDetalles"
 import profilePic from '../image/logo.png';
@@ -50,16 +51,20 @@ const location = useLocation();
   if (!id) {
     return <h1>Proyecto con ID: 😢{id}</h1>; 
   }
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
   
    const { t } = useTranslation(["web","projects"]);
     
    const web  =t("web.sections.experience", { ns: "web",returnObjects: true })|| [];
-  console.log(id);
+  
 
     const projects = t("projects", { ns: "projects", returnObjects: true }) || [];
   const proyect = projects.find(p => p.id === id);
 
   const fecha = calcularFecha(proyect.dateB,proyect.dateEnd,web);
+ 
 
   return (
     
@@ -73,7 +78,7 @@ const location = useLocation();
        
           <motion.div
             
-            initial={{ opacity: 0, y: 40 }}
+            initial={{ opacity: 0, y: 0 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay:  0.2 }}
             
@@ -93,7 +98,7 @@ const location = useLocation();
           </div>!*/}
             
               <motion.h1
-              initial={{ opacity: 0, y: -20 }}
+              initial={{ opacity: 0, y: 0 }}
               animate={{ opacity: 1, y: 0 }}
               className="text-3xl font-bold text-center  mb-10"
             >

@@ -14,7 +14,7 @@ export function NavbarDetalles() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0b1117]/60 backdrop-blur-sm border-b border-[rgba(255,255,255,0.02)]">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        <div className="text-white font-semibold text-lg">{navbar.details}</div>
+        
          <LanguageSwitcher />
         <button
           onClick={() => navigate("/CV")}

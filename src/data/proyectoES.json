@@ -113,7 +113,7 @@
       "tipo": "Tipos de Pruebas y Desarrollo",
       "tipoexp": "Experiencia en Pruebas y Desarrollo",
       "description": {
-        "development_lifecycle": "Ciclo de vida del desarrollo de software: Análisis de requerimientos, desarrollo, pruebas unitarias, resolución de errores y mantenimiento de software.",
+        "testing_lifecycle": "Ciclo de vida del desarrollo de software: Análisis de requerimientos, desarrollo, pruebas unitarias, resolución de errores y mantenimiento de software.",
         "methodology": "Metodología en cascada: Requerimientos, diseño, implementación, pruebas, despliegue."
       },
       "types": [
@@ -164,7 +164,7 @@
       "tipo": "Tipos de Desarrollo",
       "tipoexp": "Experiencia en Desarrollo",
       "description": {
-        "development_lifecycle": "Ciclo de vida del desarrollo de software: Análisis de requerimientos, desarrollo, pruebas unitarias, resolución de errores y mantenimiento de software.",
+        "testing_lifecycle": "Ciclo de vida del desarrollo de software: Análisis de requerimientos, desarrollo, pruebas unitarias, resolución de errores y mantenimiento de software.",
         "methodology": "Metodología en cascada: Requerimientos, diseño, implementación, pruebas, despliegue."
       },
       "types": [
@@ -202,8 +202,8 @@
       "tipo": "Tipos de Desarrollo",
       "tipoexp": "Experiencia en Desarrollo",
       "description": {
-        "development_lifecycle": "Ciclo de vida del desarrollo de software: Análisis de requerimientos, desarrollo, pruebas unitarias, resolución de errores y mantenimiento de software.",
-        "agile_meetings": "Planificación de sprint, reuniones quincenales, revisión de sprint y retrospectiva."
+        "testing_lifecycle": "Ciclo de vida del desarrollo de software: Análisis de requerimientos, desarrollo, pruebas unitarias, resolución de errores y mantenimiento de software.",
+        "methodology": "Planificación de sprint, reuniones quincenales, revisión de sprint y retrospectiva."
       },
       "types": [
         "Desarrollo de aplicaciones web",

@@ -95,7 +95,7 @@
       "tipo": "Testing and Development Types",
       "tipoexp": "Testing and Development Expertise",
       "description": {
-        "development_lifecycle": "Software Development Life Cycle: Requirement Analysis, Developing, Unit Testing, Bug Solving, Software Maintenance",
+        "testing_lifecycle": "Software Development Life Cycle: Requirement Analysis, Developing, Unit Testing, Bug Solving, Software Maintenance",
         "methodology": "Waterfall: Requirements, System Design, Implementation, Testing, Deployment"
       },
       "types": [
@@ -142,7 +142,7 @@
       "tipo": "Development Types",
       "tipoexp": "Development Expertise",
       "description": {
-        "development_lifecycle": "Software Development Life Cycle: Requirement Analysis, Developing, Unit Testing, Bug Solving, Software Maintenance",
+        "testing_lifecycle": "Software Development Life Cycle: Requirement Analysis, Developing, Unit Testing, Bug Solving, Software Maintenance",
         "methodology": "Waterfall: Requirements, System Design, Implementation, Testing, Deployment"
       },
       "types": [
@@ -175,8 +175,8 @@
       "tipo": "Development Types",
       "tipoexp": "Development Expertise",
       "description": {
-        "development_lifecycle": "Software Development Life Cycle: Requirement Analysis, Developing, Unit Testing, Bug Solving, Software Maintenance",
-        "agile_meetings": "Sprint Planning, Weekly Standups, Sprint Review, and Retrospective"
+        "testing_lifecycle": "Software Development Life Cycle: Requirement Analysis, Developing, Unit Testing, Bug Solving, Software Maintenance",
+        "methodology": "Sprint Planning, Weekly Standups, Sprint Review, and Retrospective"
       },
       "types": ["Web Application Development", "Mobile Development (Android and iOS)"],
       "expertise": [
