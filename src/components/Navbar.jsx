@@ -7,76 +7,11 @@ import { trackNavbarClick } from "../analytics/gaEvents";
 import { trackDownloadCV } from "../analytics/gaEvents";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { useTranslation } from "react-i18next";
-/*export default function Navbar() {
-  const [menuOpen, setMenuOpen] = useState(false);
-  const location = useLocation();
-
-  const scrollToSection = (id) => {
-    const section = document.getElementById(id);
-    if (section) section.scrollIntoView({ behavior: "smooth" });
-  };
-
-  const handleInicioClick = () => {
-    if (location.pathname === "/") {
-      scrollToSection("hero");
-    } else {
-      window.location.href = "/";
-    }
-  };
-
-  return (
-    <nav className="fixed top-0 left-0 w-full bg-[#0D1117]/90 backdrop-blur-md z-50 border-b border-gray-800">
-      <div className="container mx-auto flex items-center justify-between p-4">
-        <h1
-          onClick={handleInicioClick}
-          className="text-xl font-bold text-white cursor-pointer"
-        >
-          OLACHEADEV
-        </h1>
-
-        <div className="hidden md:flex space-x-6">
-          <button
-            onClick={handleInicioClick}
-            className="hover:text-cyan-400 transition"
-          >
-            Inicio
-          </button>
-          <Link to="/detallesproyectos" className="hover:text-cyan-400 transition">
-            Proyectos Detallados
-          </Link>
-        </div>
-
-        <button className="md:hidden" onClick={() => setMenuOpen(!menuOpen)}>
-          {menuOpen ? <X size={24} /> : <Menu size={24} />}
-        </button>
-      </div>
-
-      <AnimatePresence>
-        {menuOpen && (
-          <motion.div
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
-            className="md:hidden bg-[#0D1117] border-t border-gray-800"
-          >
-            <div className="flex flex-col items-center space-y-4 p-4">
-              <button onClick={handleInicioClick} className="hover:text-cyan-400">
-                Inicio
-              </button>
-              <Link
-                to="/detallesproyectos"
-                onClick={() => setMenuOpen(false)}
-                className="hover:text-cyan-400"
-              >
-                Proyectos Detallados
-              </Link>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
-    </nav>
-  );
-}*/
+/*<a href="./Erick_Olachea_Resume.pdf" className="ml-2 inline-flex items-center gap-2 bg-[#15345a] hover:bg-[#1f4f7f] text-white px-4 py-2 rounded-md"
+           download="Erick_Olachea_Resume.pdf" onClick={trackDownloadCV}>
+            {navbar.download}
+          </a>
+*/
 
 
 export default function Navbar() {
@@ -127,10 +62,21 @@ export default function Navbar() {
           <li onClick={() => trackNavbarClick("Contacto")}>
             <a href="#contact" className="hover:text-white">{navbar.contact}</a>
           </li>
-          <a href="https://olacheadev.com/CV/Erick_Olachea_Resume.pdf" className="ml-2 inline-flex items-center gap-2 bg-[#15345a] hover:bg-[#1f4f7f] text-white px-4 py-2 rounded-md"
-           download onClick={trackDownloadCV}>
+          <button
+            onClick={() => {
+              const link = document.createElement("a");
+              link.href = "./Erick_Olachea_Resume.pdf";
+              link.download = "Erick_Olachea_Resume.pdf";
+              document.body.appendChild(link);
+              link.click();
+              document.body.removeChild(link);
+              trackDownloadCV();
+            }}
+            className="ml-2 inline-flex items-center gap-2 bg-[#15345a] hover:bg-[#1f4f7f] text-white px-4 py-2 rounded-md"
+          >
             {navbar.download}
-          </a>
+          </button>
+          
           <LanguageSwitcher />
         </div>
 
@@ -155,8 +101,8 @@ export default function Navbar() {
           >
             <a href="#experience" className="block hover:text-white" onClick={() => setMenuOpen(false)}>{navbar.experience}</a>
             <a href="#projects" className="block hover:text-white" onClick={() => setMenuOpen(false)}>{navbar.project}</a>
-            <a href="#contact" className="block hover:text-white" onClick={() => setMenuOpen(false)}>{navbar.contact}</a>
-            <a href="/archivos/Erick_Olachea_Resume.pdf"
+            <a href="#contact" className="block hover:text-white" onClick={() => setMenuOpen(false)}>{navbar.contact} </a>
+            <a href="./Erick_Olachea_Resume.pdf"
               download="Erick_Olachea_Resume.pdf" className="block bg-[#15345a] hover:bg-[#1f4f7f] text-white text-center px-4 py-2 rounded-md" onClick={() => setMenuOpen(false)}>
               {navbar.download}
             </a>
