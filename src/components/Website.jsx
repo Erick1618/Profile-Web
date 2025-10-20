@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { Globe } from "lucide-react";
 
+import { useTranslation } from "react-i18next";
+
 const WEBSITES = [
   {
     title: "Invitacion Boda",
@@ -20,18 +22,21 @@ const WEBSITES = [
 ];
 
 export default function Websites() {
+    const { t } = useTranslation("web");
+          const web = t("web.sections.pages", { returnObjects: true }) || [];
+    
   return (
     <section id="websites" className="mt-20 px-4 md:px-0 max-w-6xl mx-auto">
       <h2 className="text-3xl font-bold text-center mb-10 text-gray-100">
         <Globe className="inline-block w-7 h-7 mr-2 text-blue-400" />
-        Mis Sitios Web
+        {web.title}
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        {WEBSITES.map((site, idx) => (
+        {web.sites.map((site, idx) => (
   <motion.div
     key={idx}
-    className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.06)] rounded-2xl overflow-hidden shadow-lg hover:shadow-blue-500/20 transition-all flex flex-col items-center p-4"
+    className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.06)] rounded-2xl overflow-hidden shadow-lg shadow-blue-500/20 transition-all flex flex-col items-center p-4"
     initial={{ opacity: 0, y: 40 }}
     whileInView={{ opacity: 1, y: 0 }}
     viewport={{ once: true }}
@@ -60,7 +65,7 @@ export default function Websites() {
 
     <div className="text-center mt-4">
       <h3 className="text-lg font-semibold text-gray-100">{site.title}</h3>
-      <p className="text-sm text-gray-400 mt-1">{site.desc}</p>
+      <p className="text-sm text-gray-400 mt-1">{site.description}</p>
     </div>
   </motion.div>
 ))}

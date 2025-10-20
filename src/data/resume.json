@@ -8,12 +8,42 @@
   },
   "education": [
     {
-      "school": "Universidad Autónoma de Baja California",
+      "school": "Autonomous University of Baja California",
       "date": "January 2018 - May 2022",
-      "degree": "Computer Engineering (Bachelor's Degree)"
+      "degree": "Bachelor’s Degree in Computer Engineering"
     },
     {
-      "school": "Centro de Bachillerato Tecnológico, Industrial y de Servicios No. 41",
+      "school": "Softtek",
+      "date": "August 2022 - November 2022",
+      "degree": "Functional Testing Academy"
+    },
+    {
+      "school": "Autonomous University of Baja California",
+      "date": "June 2022 - August 2022",
+      "degree": "Java Spring"
+    },
+    {
+      "school": "Udemy",
+      "date": "February 2022 - March 2022",
+      "degree": "Unity 2D RPG Development"
+    },
+    {
+      "school": "Coursera | IBM",
+      "date": "",
+      "degree": "Introduction to Cybersecurity Tools & Cyber Attacks"
+    },
+    {
+      "school": "Coursera | IBM",
+      "date": "",
+      "degree": "Cybersecurity Roles, Processes & Operating System Security"
+    },
+    {
+      "school": "Coursera | IBM",
+      "date": "",
+      "degree": "Cybersecurity Compliance Framework & System Administration"
+    },
+    {
+      "school": "Technological Industrial and Services High School Center No. 41 (CBTis 41)",
       "date": "August 2013 - June 2016",
       "degree": "Electronics Technician"
     }
@@ -21,68 +51,83 @@
   "work_experience": [
     {
       "company": "Freelancer",
-      "location": "Ensenada, B.C., Mexico",
-      "position": "Web Developer & Software QA Tester Engineer",
-      "date": "August 2024 – October 2025",
+      "location": "Ensenada, Baja California, Mexico · Remote",
+      "position": "Web Developer & Software QA Engineer",
+      "date": "February 2024 – October 2025",
+      "dateB": "2024-02-01",
+      "dateEnd": "2025-10-10",
       "responsibilities": [
-        "Functional Testing",
-        "Automation Testing E2E",
-        "Responsive Web Development",
-        "Manual Testing",
-        "API Testing",
+        "Functional testing",
+        "E2E automation testing",
+        "Responsive web development",
+        "Manual testing",
+        "API testing",
         "Database management"
-      ]
+      ],
+      "tech": ["Cypress", "JMeter", "JavaScript", "PHP", "jQuery", "Ajax", "MySQL", "HTML", "FTP", "Visual Studio Code"]
     },
     {
       "company": "Softtek",
-      "location": "Ensenada, B.C., Mexico",
-      "position": "QA Software Tester Engineer",
+      "location": "Ensenada, Baja California, Mexico · Remote",
+      "position": "QA Software Test Engineer",
       "date": "August 2022 - April 2025",
+      "dateB": "2022-08-10",
+      "dateEnd": "2025-04-08",
       "responsibilities": [
-        "Experience in the logistics and transportation sector",
+        "Experience in logistics and transportation sectors",
         "Experience in the banking sector",
-        "ISTQB Fundamentals",
-        "Functional Testing",
+        "ISTQB fundamentals",
+        "Functional testing",
         "REST API and E2E automation"
-      ]
+      ],
+      "tech": ["Cypress", "Postman", "JIRA", "ALM", "QAComplete", "SoapUI", "Cucumber", "SQL", "MuleSoft", "Red Hat", "Eclipse", "IntelliJ IDEA"]
     },
     {
       "company": "Freelancer",
-      "location": "Ensenada, B.C., Mexico",
-      "position": "Developer",
+      "location": "Ensenada, Baja California, Mexico · Remote",
+      "position": "Web and Video Game Developer",
       "date": "December 2021 – August 2022",
+      "dateB": "2021-12-01",
+      "dateEnd": "2022-08-10",
       "responsibilities": [
-        "Web Application Development",
-        "Mobile Development",
-        "Video Game Development",
-        "Databases",
-        "Object-Oriented Programming"
-      ]
+        "Web application development",
+        "Mobile development",
+        "Video game development",
+        "Database design and management",
+        "Object-oriented programming"
+      ],
+      "tech": ["Unity", "Postman", "C#", "JavaScript", "PHP", "jQuery", "Ajax", "PostgreSQL", "HTML", "FTP", "Visual Studio Code"]
     },
     {
-      "company": "Internship",
-      "location": "Ensenada, B.C., Mexico",
-      "position": "Developer",
+      "company": "Internship – University Cafeteria (eCommerce)",
+      "location": "Ensenada, Baja California, Mexico · On-site",
+      "position": "Software Developer Intern",
       "date": "August 2021 – December 2021",
+      "dateB": "2021-08-01",
+      "dateEnd": "2021-12-10",
       "responsibilities": [
-        "Web Application Development",
-        "Mobile Development",
-        "Databases",
-        "Object-Oriented Programming"
-      ]
+        "Web application development",
+        "Mobile application development",
+        "Database management",
+        "Object-oriented programming"
+      ],
+      "tech": ["Trello", "Postman", "JMeter", "PHP", "HTML", "Java", "Android Studio", "MySQL", "jQuery", "Visual Studio Code"]
     },
     {
       "company": "Naclaut",
-      "location": "Ensenada, B.C., Mexico",
-      "position": "Electronic Technician",
+      "location": "Ensenada, Baja California, Mexico · On-site",
+      "position": "Electronics Technician",
       "date": "August 2016 - May 2018",
+      "dateB": "2016-08-01",
+      "dateEnd": "2018-05-31",
       "responsibilities": [
         "Design and development of electromechanical control panels for desalination plants",
-        "Maintenance and repair of electromechanical control panels",
+        "Maintenance and repair of electromechanical systems",
         "Programming of variable frequency drives for motor control",
-        "Customer relations",
-        "Quotation and material purchasing for desalination plant manufacturing"
-      ]
+        "Customer service and support",
+        "Quoting and purchasing materials for desalination plant manufacturing"
+      ],
+      "tech": ["Flowcharts", "PLC", "Multimeter", "Variable Frequency Drive", "Oscilloscope"]
     }
   ],
   "projects": [
@@ -91,6 +136,8 @@
       "location": "Ensenada, B.C., Mexico",
       "description": "Experience in the banking sector",
       "date": "June 2024 – April 2025",
+      "dateB": "2024-06-01",
+      "dateEnd": "2025-04-10",
       "link": "https://olacheadev.com/CV/CitigroupEN.pdf"
     },
     {
@@ -98,32 +145,38 @@
       "location": "Ensenada, B.C., Mexico",
       "description": "Experience in the logistics sector",
       "date": "August 2022 – June 2024",
+      "dateB": "2022-08-01",
+      "dateEnd": "2024-06-10",
       "link": "https://olacheadev.com/CV/CrowleyEN.pdf"
     },
     {
       "name": "Event Invitations",
       "location": "Ensenada, B.C., Mexico",
-      "description": "Experience in web applications",
+      "description": "Experience in web application development",
       "date": "February 2024 – October 2025",
+      "dateB": "2024-02-01",
+      "dateEnd": "2025-10-10",
       "link": "https://olacheadev.com/CV/EventosEN.pdf"
     },
     {
       "name": "Ludiderecho 2D",
       "location": "Ensenada, B.C., Mexico",
-      "description": "Experience in the video game sector",
+      "description": "Experience in video game development",
       "date": "December 2021 – August 2022",
+      "dateB": "2021-12-01",
+      "dateEnd": "2022-08-10",
       "link": "https://olacheadev.com/CV/VideojuegoEN.pdf"
     },
     {
       "name": "eCommerce Cafeteria",
       "location": "Ensenada, B.C., Mexico",
-      "description": "Experience in web applications",
+      "description": "Experience in web development",
       "date": "August 2021 – December 2021"
     },
     {
       "name": "University Projects",
       "location": "Ensenada, B.C., Mexico",
-      "description": "Experience in web, mobile, and video game applications",
+      "description": "Experience in web, mobile, and video game development",
       "date": "April 2020 – November 2021"
     }
   ],
@@ -134,22 +187,23 @@
       "6_months": ["Python", "XML", "React"]
     },
     "tools": [
-      "JIRA", "Mulesoft", "Postman", "Oracle SQL Developer", "MySQL", "QAComplete",
-      "SoapUI", "Visual Studio Code", "IntelliJ", "Cypress", "Cucumber",
+      "JIRA", "MuleSoft", "Postman", "Oracle SQL Developer", "MySQL", "QAComplete",
+      "SoapUI", "Visual Studio Code", "IntelliJ IDEA", "Cypress", "Cucumber",
       "Microsoft SQL Server", "PostgreSQL", "OBS", "Arduino", "Android Studio",
-      "Unity", "Github", "RedHat", "Office", "Google Docs", "Photoshop", "Adobe Premiere"
+      "Unity", "GitHub", "Red Hat", "Microsoft Office", "Google Workspace",
+      "Photoshop", "Adobe Premiere"
     ],
-    "frameworks": ["Bootstrap", "ASP.NET", "jQuery (Basic)", "Java SpringBoot (Basic)"],
+    "frameworks": ["Bootstrap", "ASP.NET", "jQuery (Basic)", "Java Spring Boot (Basic)"],
     "additional_knowledge": [
       "STLC", "SDLC", "User Story Analysis and Design", "Requirements Engineering",
-      "PLC Handling (Basic)", "Installation of Operating Systems (Windows, Linux, etc.)",
+      "Basic PLC Operation", "Operating System Installation (Windows, Linux, etc.)",
       "Computer Assembly and Maintenance"
     ]
   },
   "courses_and_certifications": [
     { "name": "Functional Testing Academy", "institution": "Softtek" },
     { "name": "Java Spring", "institution": "Autonomous University of Baja California" },
-    { "name": "Unity 2D RPG", "platform": "Udemy", "link": "https://olacheadev.com/CV/Certificado%20Udemy.pdf" },
+    { "name": "Unity 2D RPG Development", "platform": "Udemy", "link": "https://olacheadev.com/CV/Certificado%20Udemy.pdf" },
     { "name": "Introduction to Cybersecurity Tools & Cyber Attacks", "platform": "Coursera | IBM", "certificate": "https://www.credly.com/badges/557c4c8e-a000-4cf9-b5f9-3560fa6fc5d4/public_url" },
     { "name": "Cybersecurity Roles, Processes & Operating System Security", "platform": "Coursera | IBM", "certificate": "https://www.credly.com/badges/64cd4a81-24dd-44ab-82f3-e0c19e8a69bb/public_url" },
     { "name": "Cybersecurity Compliance Framework & System Administration", "platform": "Coursera | IBM", "certificate": "https://www.credly.com/badges/46016eef-e50e-46d9-99dd-17be872ac3ff/public_url" },

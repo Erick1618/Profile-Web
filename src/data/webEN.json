@@ -1,0 +1,184 @@
+{
+  "web": {
+    "presentation": "Hello! I'm 👋",
+    "name": "Erick Augusto Olachea Ortega",
+    "contact": {
+      "email": "erick.olachea16@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/erick-olachea/",
+      "mobile": "+52 646 226 2706"
+    },
+    "rol": "QA Software Tester Engineer · Web Developer",
+    "description": "QA Engineer with experience in analysis, design, and execution of functional tests such as regression, integration, API, smoke, manual, and automation testing of REST and E2E APIs. Requirements tracking and defect management, with experience in agile methodologies and version control, working under STLC, SDLC, and ISTQB fundamentals. Continuous integration and improvement of quality processes. I am interested in solving complex problems through robust and reproducible testing. I also develop web applications and video games.",
+    "btncontact": "Contact",
+    "btnprojects": "Projects",
+    "navbar": {
+      "experience": "Experience",
+      "project": "Projects",
+      "contact": "Contact",
+      "download": "Download Resume",
+      "details": "Project Details",
+      "btnstart": "Home"
+    },
+    "sections": {
+      "experience": {
+        "title": "Professional Experience",
+        "year": "year",
+        "years": "years",
+        "month": "month",
+        "months": "months"
+      },
+      "skills": {
+        "title": "Skills",
+        "titlehard": "Hard Skills",
+        "titlesoft": "Soft Skills",
+        "hard": [
+          { "name": "Software Testing & QA: Functional Testing, API Testing, REST API Automation, Test Case Design, Test Data Analysis, Defect Management, QA Process Improvement.", "level": 65 },
+          { "name": "Tools & Frameworks: Postman, SOAP UI, JIRA, ALM, Confluence, Cypress, Cucumber, Mulesoft, QAComplete.", "level": 75 },
+          { "name": "Programming Languages: C, C#, Java, JavaScript, PHP, SQL, HTML, CSS, jQuery, Python (basic).", "level": 75 },
+          { "name": "Databases: MySQL, Oracle SQL Developer, PostgreSQL, Microsoft SQL Server.", "level": 75 },
+          { "name": "Game Development: Unity 2D, C# scripting, asset integration, object-oriented programming.", "level": 75 },
+          { "name": "Version Control and IDEs: GitHub, Visual Studio, IntelliJ, Android Studio, VS Code.", "level": 75 },
+          { "name": "Web & Mobile Development: Responsive design, HTML/CSS/Bootstrap, PHP, JavaScript, AJAX, Android/iOS apps.", "level": 75 }
+        ],
+        "soft": ["Communication", "Teamwork", "Organization", "Responsibility", "Critical Thinking", "Proactivity", "Analytical Thinking", "Adaptability", "Problem Solving", "Continuous Learning"]
+      },
+      "projects": {
+        "name": "Featured Projects",
+        "proyectname": [
+          {
+            "id": 2,
+            "title": "Softtek - Citigroup",
+            "rol": "Software QA Tester Engineer",
+            "sector": "Banking",
+            "tipo": "Testing",
+            "desc": "Worked under the Software Testing Life Cycle (STLC) performing automated REST API tests and manual testing for asynchronous microservices, as well as manual UI testing for a banking executive interface.",
+            "responsibilities": [
+              "Experience in the banking sector",
+              "ISTQB Fundamentals",
+              "Functional testing",
+              "REST API and E2E automation"
+            ],
+            "tech": ["Cucumber", "Postman", "Oracle SQL Developer", "IntelliJ IDEA", "RedHat", "JIRA", "ALM", "SoapUI"],
+            "btn": "view"
+          },
+          {
+            "id": 1,
+            "title": "Softtek - Crowley",
+            "rol": "Software QA Tester Engineer",
+            "sector": "Logistics and Transportation",
+            "tipo": "Testing",
+            "desc": "Worked under the Software Testing Life Cycle (STLC) performing manual testing of logistics and transportation applications.",
+            "responsibilities": [
+              "Experience in the logistics and transportation sector",
+              "ISTQB Fundamentals",
+              "Functional testing",
+              "Automation"
+            ],
+            "tech": ["Cypress", "Postman", "Mulesoft", "Salesforce", "QAComplete", "Excel"],
+            "btn": "view"
+          },
+          {
+            "id": 3,
+            "title": "Freelancer",
+            "rol": "Developer and QA Tester",
+            "sector": "Web Applications",
+            "tipo": "Testing and Development",
+            "desc": "Developed digital wedding invitations, including an admin panel to manage guests and improve event control, and a guest view showing a personalized invitation with photos and event details.",
+            "responsibilities": [
+              "Functional testing",
+              "Automated E2E testing",
+              "Responsive web application development",
+              "Manual testing",
+              "API testing",
+              "Database management"
+            ],
+            "tech": ["Cypress", "JMeter", "JavaScript", "PHP", "JQuery", "Ajax", "MySQL", "HTML", "FTP", "Visual Studio Code"],
+            "btn": "view"
+          },
+          {
+            "id": 4,
+            "title": "Freelancer",
+            "rol": "Video Game Developer",
+            "sector": "2D Video Games",
+            "tipo": "Development",
+            "desc": "Developed a 2D video game for the Autonomous University of Baja California, Ensenada Campus, designed as an educational tool to teach children about their rights and responsibilities.",
+            "responsibilities": [
+              "Web application development",
+              "Mobile development",
+              "Video game development",
+              "Databases",
+              "Object-oriented programming"
+            ],
+            "tech": ["Unity", "C#", "Visual Studio"],
+            "btn": "view"
+          },
+          {
+            "id": 5,
+            "title": "Professional Internship",
+            "rol": "Software Engineering Student",
+            "sector": "Sales and Food Service",
+            "tipo": "Development",
+            "desc": "Worked on the development of a web and mobile application for the cafeteria of the Autonomous University of Baja California, Ensenada Campus, to optimize order management and allow students to place orders through the app.",
+            "responsibilities": [
+              "Web application development",
+              "Mobile development",
+              "Databases",
+              "Object-oriented programming"
+            ],
+            "tech": ["Trello", "Postman", "JMeter", "PHP", "HTML", "Java", "Android Studio", "MySQL", "JQuery", "Visual Studio Code"],
+            "btn": "view"
+          }
+        ]
+      },
+      "github": "GitHub Projects",
+      "pages": {
+        "title": "My Websites",
+        "sites": [
+          {
+            "title": "Wedding Invitation",
+            "url": "https://olacheadev.com/VaronicayMarco/",
+            "description": "Personalized and interactive invitation for an event. (Test: invitado boda)"
+          },
+          {
+            "title": "Invitation Administration",
+            "url": "https://olacheadev.com/admin/",
+            "description": "Intuitive control dashboard to manage invitations. (Test: user, password)"
+          },
+          {
+            "title": "Delegación 74",
+            "url": "https://di74.olacheadev.com/",
+            "description": "Page of Delegación 74 of the teachers of Section 37 of the SNTE."
+          }
+        ]
+      },
+      "recomendation": {
+        "title": "Letters and Recommendations",
+        "Letters": [
+          {
+            "path": "https://olacheadev.com/CV/archivos/Carta_de_recomendacion_softtek.pdf",
+            "author": "Softtek",
+            "role": "Human Resources Administrator"
+          },
+          {
+            "path": "https://olacheadev.com/CV/archivos/Constancia_BFS.pdf",
+            "author": "BFS Ingeniería Aplicada in Softtek",
+            "role": "Human Resources Administrator"
+          },
+          {
+            "path": "https://olacheadev.com/CV/archivos/Recomendacion_prof.pdf",
+            "author": "José Manuel Valencia Moreno",
+            "role": "Master’s Degree in Software Engineering"
+          }
+        ]
+      },
+      "contact": {
+        "title": "Contact",
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "send": "Send"
+      },
+      "education": "Education and Professional Development"
+    }
+  }
+}

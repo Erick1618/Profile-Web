@@ -3,13 +3,14 @@ import { EXPERIENCE } from '../data/experience'
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 
-export function calcularEdad(fechaInicio, fechaFin) {
+export function calcularEdad(fechaInicio, fechaFin,fecha) {
   const start = new Date(fechaInicio);
   const end = new Date(fechaFin);
   let anio;
   let mes;
   let years = end.getFullYear() - start.getFullYear();
   let months = end.getMonth() - start.getMonth();
+  
 
   // Ajuste si el mes actual es menor que el mes inicial
   if (months < 0) {
@@ -20,16 +21,16 @@ export function calcularEdad(fechaInicio, fechaFin) {
   //ajustar palabras en plural
   if(months==1){
     
-    mes='mes';
+    mes=fecha.month;
   }else{
-     mes='meses';
+     mes=fecha.months;
   }
 
   if(years==1){
     
-    anio='año';
+    anio=fecha.year;
   }else{
-     anio='años';
+     anio=fecha.years;
   }
 
   return { years, months, mes,anio };
@@ -76,28 +77,28 @@ export function calcularEdad(fechaInicio, fechaFin) {
 
 
 export default function Experience() {
-  const { t } = useTranslation();
+ const { t } = useTranslation(["web","general"]);
+  
+ const web  =t("web.sections.experience", { ns: "web",returnObjects: true })|| [];
 
   // Opción 1: si quieres mapear el array completo:
-  const projects = t("projects", { returnObjects: true });
-  // 2️⃣ Accedes a arrays dentro del objeto:
-  const list = t("projects.list", { returnObjects: true });
+  const experiencia  = t("work_experience", { ns: "general", returnObjects: true }) || [];
 
 
   const res = [];
-  EXPERIENCE.map((item1, id) => (res[id] = calcularEdad(item1.fechaInicio, item1.fechaTermino)));
+  experiencia.map((item1, id) => (res[id] = calcularEdad(item1.dateB, item1.dateEnd,web)));
 
   return (
     <section id="experience" className="mt-16 px-4 md:px-0 relative">
       <h2 className="text-3xl font-bold text-center mb-12 text-gray-100">
-        Experiencia Profesional
+        {web.title}
       </h2>
 
       <div className="relative max-w-4xl mx-auto">
         {/* Línea central (visible a la izquierda en móvil, centrada en desktop) */}
         <div className="absolute left-6 md:left-1/2 top-0 bottom-0 w-[2px] bg-gradient-to-b from-blue-500/30 to-purple-500/30 md:translate-x-[-50%]" />
 
-        {EXPERIENCE.map((item, idx) => (
+        {experiencia.map((item, idx) => (
           <motion.div
             key={idx}
             className={`relative flex flex-col md:flex-row items-start mb-6 md:mb-10 ${
@@ -121,9 +122,9 @@ export default function Experience() {
                 <h3 className="text-lg md:text-xl font-semibold text-gray-100">
                   {item.company}
                 </h3>
-                <p className="text-blue-400 text-sm md:text-base">{item.role}</p>
+                <p className="text-blue-400 text-sm md:text-base">{item.position}</p>
                 <p className="text-xs md:text-sm text-gray-400">
-                 {item.period} · {res[idx].years} {res[idx].anio} {res[idx].months} {res[idx].mes}
+                 {item.date} · {res[idx].years} {res[idx].anio} {res[idx].months} {res[idx].mes}
                 </p>
                 <p className="text-xs md:text-sm text-gray-500">{item.location}</p>
               </div>

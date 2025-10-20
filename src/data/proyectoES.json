@@ -1,18 +1,20 @@
 {
   "projects": [
     {
+      "id": 1,
       "company": "Softtek – Crowley: Soluciones Logísticas, Gubernamentales, Marinas y Energéticas",
-      "city": "Ensenada, Baja California, México",
+      "city": "Ensenada, Baja California, México · En remoto",
       "role": "Ingeniero de Pruebas de Software QA (Funcional)",
-      "date": {
-        "from": "Agosto 2022",
-        "to": "Junio 2024"
-      },
+      "date": "Agosto 2022 - Junio 2024",
+      "dateB": "2022-08-10",
+      "dateEnd": "2024-06-08",
+      "tipo": "Tipos de Pruebas",
+      "tipoexp": "Experiencia en Pruebas",
       "description": {
-        "testing_lifecycle": "Ciclo de vida de pruebas de software: Análisis QA, planificación de pruebas, diseño de pruebas, revisión de casos de prueba, ejecución, configuración de entorno y gestión de defectos.",
-        "qa_management": "QAComplete y Salesforce"
+        "testing_lifecycle": "Ciclo de vida de pruebas de software: Análisis QA, planificación de pruebas, diseño de pruebas, revisión de casos de prueba, ejecución, configuración de entorno y gestión de defectos. Gestión de QA: QAComplete y Salesforce.",
+        "methodology": "Metodologías Ágiles: Reuniones semanales."
       },
-      "testing_types": [
+      "types": [
         "Pruebas funcionales",
         "Pruebas de API",
         "Pruebas de regresión",
@@ -21,7 +23,7 @@
         "Pruebas manuales",
         "Pruebas de humo"
       ],
-      "testing_expertise": [
+      "expertise": [
         "Interacción directa con el cliente para reportar estado y estimaciones de pruebas",
         "Pruebas de API usando Postman y Mulesoft (visualización de logs y respuestas)",
         "Análisis y diseño de casos y escenarios de prueba",
@@ -32,6 +34,12 @@
         "Aplicación de mejoras de procesos y buenas prácticas"
       ],
       "functional_experience": "Ingeniero de Pruebas de Software QA",
+      "funcional": {
+        "experience": "Experiencia Funcional",
+        "tools": "Herramientas",
+        "meto": "Metodología",
+        "stlc": "STLC"
+      },
       "tools": [
         "QAComplete",
         "SQL",
@@ -43,25 +51,27 @@
       ]
     },
     {
+      "id": 2,
       "company": "Softtek – Citigroup",
-      "city": "Ensenada, Baja California, México",
+      "city": "Ensenada, Baja California, México · En remoto",
       "role": "Ingeniero de Pruebas de Software QA (Funcional y Automatización)",
-      "date": {
-        "from": "Junio 2024",
-        "to": "Abril 2025"
-      },
+      "date": "Junio 2024 - Abril 2025",
+      "dateB": "2024-06-10",
+      "dateEnd": "2025-04-08",
+      "tipo": "Tipos de Pruebas",
+      "tipoexp": "Experiencia en Pruebas",
       "description": {
-        "testing_lifecycle": "Ciclo de vida de pruebas de software: Análisis QA, planificación de pruebas, diseño de pruebas, revisión de casos de prueba, ejecución, configuración de entorno y gestión de defectos.",
-        "qa_management": "JIRA, ALM y Confluence"
+        "testing_lifecycle": "Ciclo de vida de pruebas de software: Análisis QA, planificación de pruebas, diseño de pruebas, revisión de casos de prueba, ejecución, configuración de entorno y gestión de defectos. Gestión de QA: JIRA, ALM y Confluence.",
+        "methodology": "Metodologías Ágiles: Reuniones diarias."
       },
-      "testing_types": [
+      "types": [
         "Pruebas funcionales",
         "Pruebas de integración",
         "Pruebas manuales",
         "Pruebas de API",
         "Automatización de pruebas (API REST)"
       ],
-      "testing_expertise": [
+      "expertise": [
         "Interacción directa con el cliente para reportar estado y estimaciones de pruebas",
         "Pruebas de API usando Postman y SOAP UI",
         "Pruebas de microservicios asíncronos con SpringBoot y RedHat",
@@ -74,6 +84,12 @@
         "Aplicación de mejoras de procesos y buenas prácticas"
       ],
       "functional_experience": "Ingeniero de Pruebas de Software QA (Funcional y Automatización)",
+      "funcional": {
+        "experience": "Experiencia Funcional",
+        "tools": "Herramientas",
+        "meto": "Metodología",
+        "stlc": "STLC"
+      },
       "tools": [
         "Cucumber",
         "Java",
@@ -87,41 +103,49 @@
       ]
     },
     {
+      "id": 3,
       "company": "Freelancer – Invitaciones Digitales para Eventos",
-      "city": "Ensenada, Baja California, México",
+      "city": "Ensenada, Baja California, México · En remoto",
       "role": "Ingeniero de Desarrollo Web y QA",
-      "date": {
-        "from": "Febrero 2024",
-        "to": "Octubre 2025"
-      },
+      "date": "Febrero 2024 – Octubre 2025",
+      "dateB": "2024-02-01",
+      "dateEnd": "2025-10-10",
+      "tipo": "Tipos de Pruebas y Desarrollo",
+      "tipoexp": "Experiencia en Pruebas y Desarrollo",
       "description": {
-        "development_lifecycle": "Ciclo de vida del desarrollo de software: Análisis de requerimientos, desarrollo, pruebas unitarias, resolución de errores y mantenimiento de software.",
+        "testing_lifecycle": "Ciclo de vida del desarrollo de software: Análisis de requerimientos, desarrollo, pruebas unitarias, resolución de errores y mantenimiento de software.",
         "methodology": "Metodología en cascada: Requerimientos, diseño, implementación, pruebas, despliegue."
       },
-      "development_types": [
+      "types": [
         "Desarrollo de aplicaciones web responsivas",
         "Pruebas funcionales",
         "Pruebas manuales",
         "Pruebas de API",
         "Automatización de pruebas"
       ],
-      "development_expertise": [
+      "expertise": [
         "Análisis y diseño de historias de usuario",
-        "Desarrollo web con JQuery, PHP, HTML y Bootstrap",
+        "Desarrollo web con jQuery, PHP, HTML y Bootstrap",
         "Desarrollo de bases de datos con MySQL",
         "Entregas puntuales y soporte técnico",
-        "Control de versiones con Github"
+        "Control de versiones con GitHub"
       ],
       "functional_experience": "Ingeniero de Desarrollo Web y QA",
+      "funcional": {
+        "experience": "Experiencia Funcional",
+        "tools": "Herramientas",
+        "meto": "Metodología",
+        "stlc": "SDLC"
+      },
       "tools": [
         "Bootstrap",
         "Postman",
-        "Github",
+        "GitHub",
         "Cypress",
         "JMeter",
         "JavaScript",
         "PHP",
-        "JQuery",
+        "jQuery",
         "Ajax",
         "MySQL",
         "HTML",
@@ -130,53 +154,64 @@
       ]
     },
     {
+      "id": 4,
       "company": "Freelancer – Universidad Autónoma de Baja California (Videojuego)",
-      "city": "Ensenada, Baja California, México",
+      "city": "Ensenada, Baja California, México · En remoto",
       "role": "Ingeniero de Desarrollo de Software",
-      "date": {
-        "from": "Diciembre 2021",
-        "to": "Agosto 2022"
-      },
+      "date": "Diciembre 2021 – Agosto 2022",
+      "dateB": "2021-12-01",
+      "dateEnd": "2022-08-10",
+      "tipo": "Tipos de Desarrollo",
+      "tipoexp": "Experiencia en Desarrollo",
       "description": {
-        "development_lifecycle": "Ciclo de vida del desarrollo de software: Análisis de requerimientos, desarrollo, pruebas unitarias, resolución de errores y mantenimiento de software."
+        "testing_lifecycle": "Ciclo de vida del desarrollo de software: Análisis de requerimientos, desarrollo, pruebas unitarias, resolución de errores y mantenimiento de software.",
+        "methodology": "Metodología en cascada: Requerimientos, diseño, implementación, pruebas, despliegue."
       },
-      "development_types": [
+      "types": [
         "Desarrollo de videojuegos",
         "Desarrollo de escritorio",
         "Desarrollo móvil (Android e iOS)",
         "Programación orientada a objetos"
       ],
-      "development_expertise": [
+      "expertise": [
         "Análisis y diseño de requerimientos",
         "Desarrollo de videojuegos en C#",
         "Desarrollo de escritorio en C#",
         "Seguimiento de requisitos y errores asignados",
         "Reportes semanales de estado y estimación de progreso",
         "Entrega puntual de tareas",
-        "Control de versiones con Github"
+        "Control de versiones con GitHub"
       ],
       "functional_experience": "Ingeniero de Desarrollo de Software",
-      "tools": ["Unity", "Github", "C#"]
+      "funcional": {
+        "experience": "Experiencia Funcional",
+        "tools": "Herramientas",
+        "meto": "Metodología",
+        "stlc": "SDLC"
+      },
+      "tools": ["Unity", "GitHub", "C#"]
     },
     {
+      "id": 5,
       "company": "Prácticas – Cafetería Universitaria (eCommerce)",
-      "city": "Ensenada, Baja California, México",
+      "city": "Ensenada, Baja California, México · Presencial",
       "role": "Ingeniero de Software",
-      "date": {
-        "from": "Agosto 2021",
-        "to": "Diciembre 2021"
-      },
+      "date": "Agosto 2021 – Diciembre 2021",
+      "dateB": "2021-08-01",
+      "dateEnd": "2021-12-10",
+      "tipo": "Tipos de Desarrollo",
+      "tipoexp": "Experiencia en Desarrollo",
       "description": {
-        "development_lifecycle": "Ciclo de vida del desarrollo de software: Análisis de requerimientos, desarrollo, pruebas unitarias, resolución de errores y mantenimiento de software.",
-        "agile_meetings": "Planificación de sprint, reuniones quincenales, revisión de sprint y retrospectiva."
+        "testing_lifecycle": "Ciclo de vida del desarrollo de software: Análisis de requerimientos, desarrollo, pruebas unitarias, resolución de errores y mantenimiento de software.",
+        "methodology": "Planificación de sprint, reuniones quincenales, revisión de sprint y retrospectiva."
       },
-      "development_types": [
+      "types": [
         "Desarrollo de aplicaciones web",
         "Desarrollo móvil (Android e iOS)"
       ],
-      "development_expertise": [
+      "expertise": [
         "Análisis y diseño de requerimientos e historias de usuario",
-        "Desarrollo web con JQuery, PHP, HTML y Bootstrap",
+        "Desarrollo web con jQuery, PHP, HTML y Bootstrap",
         "Desarrollo móvil usando Java y Swift",
         "Desarrollo de bases de datos con MySQL",
         "Gestión de historias de usuario con Trello",
@@ -185,9 +220,26 @@
         "Entrega puntual de tareas asignadas",
         "Apoyo proactivo al equipo",
         "Identificación y mitigación de riesgos",
-        "Control de versiones con Github"
+        "Control de versiones con GitHub"
       ],
-      "functional_experience": "Ingeniero de Software (Java, JQuery, JavaScript, HTML, PHP, SQL)"
+      "functional_experience": "Ingeniero de Software",
+      "funcional": {
+        "experience": "Experiencia Funcional",
+        "tools": "Herramientas",
+        "meto": "Metodología",
+        "stlc": "SDLC"
+      },
+      "tools": [
+        "Java",
+        "jQuery",
+        "JavaScript",
+        "Postman",
+        "PHP",
+        "Trello",
+        "MySQL",
+        "HTML",
+        "Visual Studio Code"
+      ]
     }
   ]
 }
